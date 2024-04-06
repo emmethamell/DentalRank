@@ -7,3 +7,20 @@
     padding: 30px;
 }
 
+.titlerow {
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+.list-group {
+    border-radius: 0;
+}
+
+.accordion-item, .accordion-button  {
+    border-radius: 0 !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: rgba(0,0,0,.125);
+}
+
