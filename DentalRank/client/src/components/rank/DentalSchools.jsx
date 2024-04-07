@@ -7,7 +7,12 @@ const DentalSchools = () => {
   const [schools, setSchools] = useState([]);
   /* 
   send metrics and return a list of strings of schools
+
+  UPDATE: the return (and what will end up being equal to 'schools' variable)
+  will be a list of objects, each with attributes for gpa, dat, etc. This way
+  for the accordion you can easily reference each schools attribute.
   */
+ 
   useEffect(() => {
     fetch("http://localhost:3001/schools", {
       method: "POST",
