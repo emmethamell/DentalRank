@@ -3,7 +3,10 @@ import "./compare.css"
 
 const Compare = () => {
     return (
+        <>
         <div>Compare Page</div>
+        </>
+        
     )
 }
 
