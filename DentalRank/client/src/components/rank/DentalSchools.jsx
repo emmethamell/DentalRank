@@ -32,7 +32,11 @@ const DentalSchools = () => {
         <ListGroup.Item key={index}>{school}</ListGroup.Item>
       ))}
 
-      { JSON.stringify(metrics) /* for testing displaying what metrics looks like, this is what gets sent to the server*/ }
+      {
+        JSON.stringify(
+          metrics
+        ) /* for testing displaying what metrics looks like, this is what gets sent to the server*/
+      }
 
       <h4>
         GPA - Min: {metrics["0"]?.min || "N/A"} Max:{" "}
