@@ -30,7 +30,7 @@ const Metrics = () => {
         />
         <MetricItem
           eventKey="stu_fac"
-          header="Student to faculty ratio"
+          header="Student to Faculty ratio"
           body="The number of dental students per one full time faculty member"
           minPlaceHolder="1"
           maxPlaceHolder="30"

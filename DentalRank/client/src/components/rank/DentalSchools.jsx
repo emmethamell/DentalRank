@@ -42,23 +42,6 @@ const DentalSchools = () => {
           metrics
         ) /* for testing displaying what metrics looks like, this is what gets sent to the server*/
       }
-
-      <h4>
-        GPA - Min: {metrics["0"]?.min || "N/A"} Max:{" "}
-        {metrics["0"]?.max || "N/A"}
-      </h4>
-      <h4>
-        DAT - Min: {metrics["1"]?.min || "N/A"} Max:{" "}
-        {metrics["1"]?.max || "N/A"}
-      </h4>
-      <h4>
-        Acceptance - Min: {metrics["2"]?.min || "N/A"} Max:{" "}
-        {metrics["2"]?.max || "N/A"}
-      </h4>
-      <h4>
-        Student to Faculty - Min: {metrics["3"]?.min || "N/A"} Max:{" "}
-        {metrics["3"]?.max || "N/A"}
-      </h4>
     </ListGroup>
   );
 };

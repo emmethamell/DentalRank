@@ -1,0 +1,692 @@
+[
+  {
+    "school": "University of Alabama",
+    "dat_overall": 21.3,
+    "dat_science": 20.8,
+    "dat_perceptual": 20.5,
+    "gpa_science": 3.71,
+    "gpa_overall": 3.77,
+    "location": "AL",
+    "type": "Public"
+  },
+  {
+    "school": "Arizona School of Dentistry & Oral Health",
+    "dat_overall": 18,
+    "dat_science": 18,
+    "dat_perceptual": 19,
+    "gpa_science": 3.32,
+    "gpa_overall": 3.43,
+    "location": "AZ",
+    "type": "Private Nonprofit"
+  },
+  {
+    "school": "Midwestern University - AZ",
+    "dat_overall": 19.8,
+    "dat_science": 19.5,
+    "dat_perceptual": 21,
+    "gpa_science": 3.45,
+    "gpa_overall": 3.54,
+    "location": "AZ",
+    "type": "Private Nonprofit"
+  },
+  {
+    "school": "California Northstate University",
+    "dat_overall": 20,
+    "dat_science": 20,
+    "dat_perceptual": 21,
+    "gpa_science": 3.2,
+    "gpa_overall": 3.3,
+    "location": "CA",
+    "type": "Private For-Profit"
+  },
+  {
+    "school": "University of the Pacific",
+    "dat_overall": 22.5,
+    "dat_science": 22.1,
+    "dat_perceptual": 22,
+    "gpa_science": 3.55,
+    "gpa_overall": 3.63,
+    "location": "CA",
+    "type": "Private Nonprofit"
+  },
+  {
+    "school": "University of California, San Francisco",
+    "dat_overall": 23,
+    "dat_science": 23,
+    "dat_perceptual": 22,
+    "gpa_science": 3.61,
+    "gpa_overall": 3.68,
+    "location": "CA",
+    "type": "Public"
+  },
+  {
+    "school": "University of California, Los Angeles",
+    "dat_overall": 23,
+    "dat_science": 23,
+    "dat_perceptual": 23,
+    "gpa_science": 3.81,
+    "gpa_overall": 3.83,
+    "location": "CA",
+    "type": "Public"
+  },
+  {
+    "school": "Herman Ostrow School of Dentistry of USC",
+    "dat_overall": 20.5,
+    "dat_science": 20.2,
+    "dat_perceptual": 20.2,
+    "gpa_science": 3.67,
+    "gpa_overall": 3.73,
+    "location": "CA",
+    "type": "Private Nonprofit"
+  },
+  {
+    "school": "Loma Linda University",
+    "dat_overall": 20.2,
+    "dat_science": 19.7,
+    "dat_perceptual": 20.3,
+    "gpa_science": 3.42,
+    "gpa_overall": 3.5,
+    "location": "CA",
+    "type": "Private Nonprofit"
+  },
+  {
+    "school": "Western University of Health Sciences",
+    "dat_overall": 20,
+    "dat_science": 20,
+    "dat_perceptual": 20,
+    "gpa_science": 3.25,
+    "gpa_overall": 3.35,
+    "location": "CA",
+    "type": "Private Nonprofit"
+  },
+  {
+    "school": "University of Colorado",
+    "dat_overall": 20,
+    "dat_science": 19,
+    "dat_perceptual": 21,
+    "gpa_science": 3.48,
+    "gpa_overall": 3.5,
+    "location": "CO",
+    "type": "Public"
+  },
+  {
+    "school": "University of Connecticut",
+    "dat_overall": 21,
+    "dat_science": 20.9,
+    "dat_perceptual": 19.8,
+    "gpa_science": 3.53,
+    "gpa_overall": 3.63,
+    "location": "CT",
+    "type": "Public"
+  },
+  {
+    "school": "Howard University",
+    "dat_overall": 18,
+    "dat_science": 18,
+    "dat_perceptual": 18,
+    "gpa_science": 3.16,
+    "gpa_overall": 3.31,
+    "location": "DC",
+    "type": "Private Nonprofit"
+  },
+  {
+    "school": "University of Florida",
+    "dat_overall": 22,
+    "dat_science": 22,
+    "dat_perceptual": 21,
+    "gpa_science": 3.77,
+    "gpa_overall": 3.82,
+    "location": "FL",
+    "type": "Public"
+  },
+  {
+    "school": "Nova Southeastern University",
+    "dat_overall": 21,
+    "dat_science": 21,
+    "dat_perceptual": 20,
+    "gpa_science": 3.6,
+    "gpa_overall": 3.7,
+    "location": "FL",
+    "type": "Private Nonprofit"
+  },
+  {
+    "school": "LECOM College of Dental Medicine",
+    "dat_overall": 20,
+    "dat_science": 20,
+    "dat_perceptual": 20,
+    "gpa_science": 3.6,
+    "gpa_overall": 3.7,
+    "location": "FL",
+    "type": "Private Nonprofit"
+  },
+  {
+    "school": "Augusta University",
+    "dat_overall": 21,
+    "dat_science": 20,
+    "dat_perceptual": 21,
+    "gpa_science": 3.68,
+    "gpa_overall": 3.74,
+    "location": "GA",
+    "type": "Public"
+  },
+  {
+    "school": "Southern Illinois University",
+    "dat_overall": 21,
+    "dat_science": 20.5,
+    "dat_perceptual": 20.5,
+    "gpa_science": 3.58,
+    "gpa_overall": 3.68,
+    "location": "IL",
+    "type": "Public"
+  },
+  {
+    "school": "University of Illinois, Chicago",
+    "dat_overall": 20,
+    "dat_science": 20,
+    "dat_perceptual": 20,
+    "gpa_science": 3.58,
+    "gpa_overall": 3.66,
+    "location": "IL",
+    "type": "Public"
+  },
+  {
+    "school": "Midwestern University - IL",
+    "dat_overall": 19.2,
+    "dat_science": 18.7,
+    "dat_perceptual": 19.5,
+    "gpa_science": 3.25,
+    "gpa_overall": 3.41,
+    "location": "IL",
+    "type": "Private Nonprofit"
+  },
+  {
+    "school": "Indiana University",
+    "dat_overall": 20.7,
+    "dat_science": 20.1,
+    "dat_perceptual": 20,
+    "gpa_science": 3.54,
+    "gpa_overall": 3.63,
+    "location": "IN",
+    "type": "Public"
+  },
+  {
+    "school": "University of Iowa",
+    "dat_overall": 21,
+    "dat_science": 21,
+    "dat_perceptual": 21,
+    "gpa_science": 3.66,
+    "gpa_overall": 3.73,
+    "location": "IA",
+    "type": "Public"
+  },
+  {
+    "school": "University of Kentucky",
+    "dat_overall": 20,
+    "dat_science": 20,
+    "dat_perceptual": 20,
+    "gpa_science": 3.54,
+    "gpa_overall": 3.63,
+    "location": "KY",
+    "type": "Public"
+  },
+  {
+    "school": "University of Louisville",
+    "dat_overall": 20.2,
+    "dat_science": 19.9,
+    "dat_perceptual": 20.1,
+    "gpa_science": 3.46,
+    "gpa_overall": 3.59,
+    "location": "KY",
+    "type": "Public"
+  },
+  {
+    "school": "LSU Health Sciences Center",
+    "dat_overall": 21.1,
+    "dat_science": 20.1,
+    "dat_perceptual": 21,
+    "gpa_science": 3.51,
+    "gpa_overall": 3.62,
+    "location": "LA",
+    "type": "Public"
+  },
+  {
+    "school": "University of New England",
+    "dat_overall": 19.2,
+    "dat_science": 18.9,
+    "dat_perceptual": 20.3,
+    "gpa_science": 3.48,
+    "gpa_overall": 3.58,
+    "location": "ME",
+    "type": "Private Nonprofit"
+  },
+  {
+    "school": "University of Maryland",
+    "dat_overall": 21,
+    "dat_science": 20,
+    "dat_perceptual": 20,
+    "gpa_science": 3.5,
+    "gpa_overall": 3.6,
+    "location": "MD",
+    "type": "Public"
+  },
+  {
+    "school": "Harvard University",
+    "dat_overall": 24.8,
+    "dat_science": 24.7,
+    "dat_perceptual": 22.9,
+    "gpa_science": 3.93,
+    "gpa_overall": 3.94,
+    "location": "MA",
+    "type": "Private Nonprofit"
+  },
+  {
+    "school": "Boston University",
+    "dat_overall": 21.1,
+    "dat_science": 21.5,
+    "dat_perceptual": 21.7,
+    "gpa_science": 3.43,
+    "gpa_overall": 3.53,
+    "location": "MA",
+    "type": "Private Nonprofit"
+  },
+  {
+    "school": "Tufts University",
+    "dat_overall": 19,
+    "dat_science": 19,
+    "dat_perceptual": 19,
+    "gpa_science": 3.28,
+    "gpa_overall": 3.32,
+    "location": "MA",
+    "type": "Private Nonprofit"
+  },
+  {
+    "school": "University of Detroit Mercy",
+    "dat_overall": 20.2,
+    "dat_science": 20.2,
+    "dat_perceptual": 20,
+    "gpa_science": 3.59,
+    "gpa_overall": 3.66,
+    "location": "MI",
+    "type": "Private Nonprofit"
+  },
+  {
+    "school": "University of Michigan",
+    "dat_overall": 22.5,
+    "dat_science": 22,
+    "dat_perceptual": 21.9,
+    "gpa_science": 3.75,
+    "gpa_overall": 3.8,
+    "location": "MI",
+    "type": "Public"
+  },
+  {
+    "school": "University of Minnesota",
+    "dat_overall": 20.7,
+    "dat_science": 20.2,
+    "dat_perceptual": 20.9,
+    "gpa_science": 3.54,
+    "gpa_overall": 3.62,
+    "location": "MN",
+    "type": "Public"
+  },
+  {
+    "school": "University of Mississippi",
+    "dat_overall": 19.6,
+    "dat_science": 19.1,
+    "dat_perceptual": 20,
+    "gpa_science": 3.69,
+    "gpa_overall": 3.53,
+    "location": "MS",
+    "type": "Public"
+  },
+  {
+    "school": "University of Missouri, Kansas City",
+    "dat_overall": 20.1,
+    "dat_science": 19.7,
+    "dat_perceptual": 20.4,
+    "gpa_science": 3.61,
+    "gpa_overall": 3.71,
+    "location": "MO",
+    "type": "Public"
+  },
+  {
+    "school": "Missouri School of Dentistry & Oral Health",
+    "dat_overall": 19.2,
+    "dat_science": 18.6,
+    "dat_perceptual": 19.5,
+    "gpa_science": 3.41,
+    "gpa_overall": 3.54,
+    "location": "MO",
+    "type": "Private Nonprofit"
+  },
+  {
+    "school": "Creighton University",
+    "dat_overall": 20,
+    "dat_science": 20,
+    "dat_perceptual": 21,
+    "gpa_science": 3.49,
+    "gpa_overall": 3.62,
+    "location": "NE",
+    "type": "Private Nonprofit"
+  },
+  {
+    "school": "University of Nebraska Medical Center",
+    "dat_overall": 20.7,
+    "dat_science": 20,
+    "dat_perceptual": 20.9,
+    "gpa_science": 3.63,
+    "gpa_overall": 3.71,
+    "location": "NE",
+    "type": "Public"
+  },
+  {
+    "school": "University of Nevada, Las Vegas",
+    "dat_overall": 20.9,
+    "dat_science": 20.6,
+    "dat_perceptual": 20.8,
+    "gpa_science": 3.43,
+    "gpa_overall": 3.49,
+    "location": "NV",
+    "type": "Public"
+  },
+  {
+    "school": "Rutgers School of Dental Medicine",
+    "dat_overall": 21.2,
+    "dat_science": 21.4,
+    "dat_perceptual": 20.6,
+    "gpa_science": 3.59,
+    "gpa_overall": 3.65,
+    "location": "NJ",
+    "type": "Public"
+  },
+  {
+    "school": "Columbia University",
+    "dat_overall": 24,
+    "dat_science": 24,
+    "dat_perceptual": 22,
+    "gpa_science": 3.7,
+    "gpa_overall": 3.73,
+    "location": "NY",
+    "type": "Private Nonprofit"
+  },
+  {
+    "school": "New York University",
+    "dat_overall": 21,
+    "dat_science": 20.7,
+    "dat_perceptual": 20.2,
+    "gpa_science": 3.29,
+    "gpa_overall": 3.41,
+    "location": "NY",
+    "type": "Private Nonprofit"
+  },
+  {
+    "school": "Stony Brook University",
+    "dat_overall": 21.9,
+    "dat_science": 21.7,
+    "dat_perceptual": 20.8,
+    "gpa_science": 3.69,
+    "gpa_overall": 3.74,
+    "location": "NY",
+    "type": "Public"
+  },
+  {
+    "school": "Touro College of Dental Medicine",
+    "dat_overall": 21.4,
+    "dat_science": 21.4,
+    "dat_perceptual": 21,
+    "gpa_science": 3.43,
+    "gpa_overall": 3.54,
+    "location": "NY",
+    "type": "Private Nonprofit"
+  },
+  {
+    "school": "University at Buffalo",
+    "dat_overall": 21.4,
+    "dat_science": 21.1,
+    "dat_perceptual": 20.9,
+    "gpa_science": 3.64,
+    "gpa_overall": 3.69,
+    "location": "NY",
+    "type": "Public"
+  },
+  {
+    "school": "University of North Carolina",
+    "dat_overall": 22.5,
+    "dat_science": 22,
+    "dat_perceptual": 21.5,
+    "gpa_science": 3.59,
+    "gpa_overall": 3.65,
+    "location": "NC",
+    "type": "Public"
+  },
+  {
+    "school": "East Carolina University",
+    "dat_overall": 20.5,
+    "dat_science": 20.1,
+    "dat_perceptual": 20.5,
+    "gpa_science": 3.5,
+    "gpa_overall": 3.6,
+    "location": "NC",
+    "type": "Public"
+  },
+  {
+    "school": "Ohio State University",
+    "dat_overall": 20.9,
+    "dat_science": 20.5,
+    "dat_perceptual": 21.3,
+    "gpa_science": 3.57,
+    "gpa_overall": 3.63,
+    "location": "OH",
+    "type": "Public"
+  },
+  {
+    "school": "Case Western Reserve University",
+    "dat_overall": 20.8,
+    "dat_science": 20.1,
+    "dat_perceptual": 20.3,
+    "gpa_science": 3.6,
+    "gpa_overall": 3.51,
+    "location": "OH",
+    "type": "Private Nonprofit"
+  },
+  {
+    "school": "University of Oklahoma",
+    "dat_overall": 19.7,
+    "dat_science": 19,
+    "dat_perceptual": 19.8,
+    "gpa_science": 3.61,
+    "gpa_overall": 3.67,
+    "location": "OK",
+    "type": "Public"
+  },
+  {
+    "school": "Oregon Health & Science University",
+    "dat_overall": 21.1,
+    "dat_science": 20.7,
+    "dat_perceptual": 21.2,
+    "gpa_science": 3.69,
+    "gpa_overall": 3.74,
+    "location": "OR",
+    "type": "Public"
+  },
+  {
+    "school": "Temple University",
+    "dat_overall": 21.3,
+    "dat_science": 21,
+    "dat_perceptual": 20.5,
+    "gpa_science": 3.48,
+    "gpa_overall": 3.57,
+    "location": "PA",
+    "type": "Private/State-Related"
+  },
+  {
+    "school": "University of Pennsylvania",
+    "dat_overall": 22.9,
+    "dat_science": 22.4,
+    "dat_perceptual": 21.8,
+    "gpa_science": 3.71,
+    "gpa_overall": 3.77,
+    "location": "PA",
+    "type": "Private Nonprofit"
+  },
+  {
+    "school": "University of Pittsburgh",
+    "dat_overall": 20.7,
+    "dat_science": 20.2,
+    "dat_perceptual": 20.4,
+    "gpa_science": 3.62,
+    "gpa_overall": 3.72,
+    "location": "PA",
+    "type": "Private/State-Related"
+  },
+  {
+    "school": "Medical University of South Carolina",
+    "dat_overall": 19.8,
+    "dat_science": "N/A",
+    "dat_perceptual": 21,
+    "gpa_science": 3.55,
+    "gpa_overall": 3.62,
+    "location": "SC",
+    "type": "Public"
+  },
+  {
+    "school": "Lincoln Memorial University",
+    "dat_overall": 18.8,
+    "dat_science": 18.6,
+    "dat_perceptual": 18.4,
+    "gpa_science": 3.26,
+    "gpa_overall": 3.4,
+    "location": "TN",
+    "type": "Private Nonprofit"
+  },
+  {
+    "school": "Meharry Medical College",
+    "dat_overall": 17.4,
+    "dat_science": 17,
+    "dat_perceptual": 17.1,
+    "gpa_science": 3.11,
+    "gpa_overall": 3.27,
+    "location": "TN",
+    "type": "Private Nonprofit"
+  },
+  {
+    "school": "University of Tennessee College of Dentistry",
+    "dat_overall": 20.1,
+    "dat_science": 19.4,
+    "dat_perceptual": 20.2,
+    "gpa_science": 3.58,
+    "gpa_overall": 3.66,
+    "location": "TN",
+    "type": "Public"
+  },
+  {
+    "school": "Texas A&M University",
+    "dat_overall": 22,
+    "dat_science": 22,
+    "dat_perceptual": 21,
+    "gpa_science": 3.65,
+    "gpa_overall": 3.75,
+    "location": "TX",
+    "type": "Public"
+  },
+  {
+    "school": "Texas Tech University Health Sciences Center El Paso",
+    "dat_overall": 20.2,
+    "dat_science": 19.7,
+    "dat_perceptual": 20.4,
+    "gpa_science": 3.55,
+    "gpa_overall": 3.67,
+    "location": "TX",
+    "type": "Public"
+  },
+  {
+    "school": "University of Texas at Houston",
+    "dat_overall": 22.1,
+    "dat_science": 21.9,
+    "dat_perceptual": 21,
+    "gpa_science": 3.79,
+    "gpa_overall": 3.83,
+    "location": "TX",
+    "type": "Public"
+  },
+  {
+    "school": "UT Health San Antonio",
+    "dat_overall": 21.8,
+    "dat_science": 21.6,
+    "dat_perceptual": 21.1,
+    "gpa_science": 3.68,
+    "gpa_overall": 3.77,
+    "location": "TX",
+    "type": "Public"
+  },
+  {
+    "school": "Roseman University of Health Sciences",
+    "dat_overall": 19.6,
+    "dat_science": 19,
+    "dat_perceptual": 20,
+    "gpa_science": 3.18,
+    "gpa_overall": 3.32,
+    "location": "UT",
+    "type": "Private Nonprofit"
+  },
+  {
+    "school": "University of Utah",
+    "dat_overall": 21,
+    "dat_science": 21,
+    "dat_perceptual": 21,
+    "gpa_science": 3.67,
+    "gpa_overall": 3.72,
+    "location": "UT",
+    "type": "Public"
+  },
+  {
+    "school": "Virginia Commonwealth University",
+    "dat_overall": 21.3,
+    "dat_science": 20.8,
+    "dat_perceptual": 20.9,
+    "gpa_science": 3.54,
+    "gpa_overall": 3.62,
+    "location": "VA",
+    "type": "Public"
+  },
+  {
+    "school": "University of Washington",
+    "dat_overall": 21,
+    "dat_science": 20.9,
+    "dat_perceptual": 21,
+    "gpa_science": 3.53,
+    "gpa_overall": 3.61,
+    "location": "WA",
+    "type": "Public"
+  },
+  {
+    "school": "West Virginia University",
+    "dat_overall": 19,
+    "dat_science": 19,
+    "dat_perceptual": 20,
+    "gpa_science": 3.75,
+    "gpa_overall": 3.67,
+    "location": "WV",
+    "type": "Public"
+  },
+  {
+    "school": "Marquette University",
+    "dat_overall": 20.5,
+    "dat_science": 20.1,
+    "dat_perceptual": 20.8,
+    "gpa_science": 3.55,
+    "gpa_overall": 3.64,
+    "location": "WI",
+    "type": "Private/State-Related"
+  },
+  {
+    "school": "University of Puerto Rico",
+    "dat_overall": 20,
+    "dat_science": 18,
+    "dat_perceptual": 19,
+    "gpa_science": 3.59,
+    "gpa_overall": 3.58,
+    "location": "PR",
+    "type": "Public"
+  }
+]
