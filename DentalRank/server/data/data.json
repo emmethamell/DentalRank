@@ -1,6 +1,6 @@
 [
   {
-    "school": "University of Alabama",
+    "name": "University of Alabama",
     "dat_overall": 21.3,
     "dat_science": 20.8,
     "dat_perceptual": 20.5,
@@ -10,7 +10,7 @@
     "type": "Public"
   },
   {
-    "school": "Arizona School of Dentistry & Oral Health",
+    "name": "Arizona School of Dentistry & Oral Health",
     "dat_overall": 18,
     "dat_science": 18,
     "dat_perceptual": 19,
@@ -20,7 +20,7 @@
     "type": "Private Nonprofit"
   },
   {
-    "school": "Midwestern University - AZ",
+    "name": "Midwestern University - AZ",
     "dat_overall": 19.8,
     "dat_science": 19.5,
     "dat_perceptual": 21,
@@ -30,7 +30,7 @@
     "type": "Private Nonprofit"
   },
   {
-    "school": "California Northstate University",
+    "name": "California Northstate University",
     "dat_overall": 20,
     "dat_science": 20,
     "dat_perceptual": 21,
@@ -40,7 +40,7 @@
     "type": "Private For-Profit"
   },
   {
-    "school": "University of the Pacific",
+    "name": "University of the Pacific",
     "dat_overall": 22.5,
     "dat_science": 22.1,
     "dat_perceptual": 22,
@@ -50,7 +50,7 @@
     "type": "Private Nonprofit"
   },
   {
-    "school": "University of California, San Francisco",
+    "name": "University of California, San Francisco",
     "dat_overall": 23,
     "dat_science": 23,
     "dat_perceptual": 22,
@@ -60,7 +60,7 @@
     "type": "Public"
   },
   {
-    "school": "University of California, Los Angeles",
+    "name": "University of California, Los Angeles",
     "dat_overall": 23,
     "dat_science": 23,
     "dat_perceptual": 23,
@@ -70,7 +70,7 @@
     "type": "Public"
   },
   {
-    "school": "Herman Ostrow School of Dentistry of USC",
+    "name": "Herman Ostrow School of Dentistry of USC",
     "dat_overall": 20.5,
     "dat_science": 20.2,
     "dat_perceptual": 20.2,
@@ -80,7 +80,7 @@
     "type": "Private Nonprofit"
   },
   {
-    "school": "Loma Linda University",
+    "name": "Loma Linda University",
     "dat_overall": 20.2,
     "dat_science": 19.7,
     "dat_perceptual": 20.3,
@@ -90,7 +90,7 @@
     "type": "Private Nonprofit"
   },
   {
-    "school": "Western University of Health Sciences",
+    "name": "Western University of Health Sciences",
     "dat_overall": 20,
     "dat_science": 20,
     "dat_perceptual": 20,
@@ -100,7 +100,7 @@
     "type": "Private Nonprofit"
   },
   {
-    "school": "University of Colorado",
+    "name": "University of Colorado",
     "dat_overall": 20,
     "dat_science": 19,
     "dat_perceptual": 21,
@@ -110,7 +110,7 @@
     "type": "Public"
   },
   {
-    "school": "University of Connecticut",
+    "name": "University of Connecticut",
     "dat_overall": 21,
     "dat_science": 20.9,
     "dat_perceptual": 19.8,
@@ -120,7 +120,7 @@
     "type": "Public"
   },
   {
-    "school": "Howard University",
+    "name": "Howard University",
     "dat_overall": 18,
     "dat_science": 18,
     "dat_perceptual": 18,
@@ -130,7 +130,7 @@
     "type": "Private Nonprofit"
   },
   {
-    "school": "University of Florida",
+    "name": "University of Florida",
     "dat_overall": 22,
     "dat_science": 22,
     "dat_perceptual": 21,
@@ -140,7 +140,7 @@
     "type": "Public"
   },
   {
-    "school": "Nova Southeastern University",
+    "name": "Nova Southeastern University",
     "dat_overall": 21,
     "dat_science": 21,
     "dat_perceptual": 20,
@@ -150,7 +150,7 @@
     "type": "Private Nonprofit"
   },
   {
-    "school": "LECOM College of Dental Medicine",
+    "name": "LECOM College of Dental Medicine",
     "dat_overall": 20,
     "dat_science": 20,
     "dat_perceptual": 20,
@@ -160,7 +160,7 @@
     "type": "Private Nonprofit"
   },
   {
-    "school": "Augusta University",
+    "name": "Augusta University",
     "dat_overall": 21,
     "dat_science": 20,
     "dat_perceptual": 21,
@@ -170,7 +170,7 @@
     "type": "Public"
   },
   {
-    "school": "Southern Illinois University",
+    "name": "Southern Illinois University",
     "dat_overall": 21,
     "dat_science": 20.5,
     "dat_perceptual": 20.5,
@@ -180,7 +180,7 @@
     "type": "Public"
   },
   {
-    "school": "University of Illinois, Chicago",
+    "name": "University of Illinois, Chicago",
     "dat_overall": 20,
     "dat_science": 20,
     "dat_perceptual": 20,
@@ -190,7 +190,7 @@
     "type": "Public"
   },
   {
-    "school": "Midwestern University - IL",
+    "name": "Midwestern University - IL",
     "dat_overall": 19.2,
     "dat_science": 18.7,
     "dat_perceptual": 19.5,
@@ -200,7 +200,7 @@
     "type": "Private Nonprofit"
   },
   {
-    "school": "Indiana University",
+    "name": "Indiana University",
     "dat_overall": 20.7,
     "dat_science": 20.1,
     "dat_perceptual": 20,
@@ -210,7 +210,7 @@
     "type": "Public"
   },
   {
-    "school": "University of Iowa",
+    "name": "University of Iowa",
     "dat_overall": 21,
     "dat_science": 21,
     "dat_perceptual": 21,
@@ -220,7 +220,7 @@
     "type": "Public"
   },
   {
-    "school": "University of Kentucky",
+    "name": "University of Kentucky",
     "dat_overall": 20,
     "dat_science": 20,
     "dat_perceptual": 20,
@@ -230,7 +230,7 @@
     "type": "Public"
   },
   {
-    "school": "University of Louisville",
+    "name": "University of Louisville",
     "dat_overall": 20.2,
     "dat_science": 19.9,
     "dat_perceptual": 20.1,
@@ -240,7 +240,7 @@
     "type": "Public"
   },
   {
-    "school": "LSU Health Sciences Center",
+    "name": "LSU Health Sciences Center",
     "dat_overall": 21.1,
     "dat_science": 20.1,
     "dat_perceptual": 21,
@@ -250,7 +250,7 @@
     "type": "Public"
   },
   {
-    "school": "University of New England",
+    "name": "University of New England",
     "dat_overall": 19.2,
     "dat_science": 18.9,
     "dat_perceptual": 20.3,
@@ -260,7 +260,7 @@
     "type": "Private Nonprofit"
   },
   {
-    "school": "University of Maryland",
+    "name": "University of Maryland",
     "dat_overall": 21,
     "dat_science": 20,
     "dat_perceptual": 20,
@@ -270,7 +270,7 @@
     "type": "Public"
   },
   {
-    "school": "Harvard University",
+    "name": "Harvard University",
     "dat_overall": 24.8,
     "dat_science": 24.7,
     "dat_perceptual": 22.9,
@@ -280,7 +280,7 @@
     "type": "Private Nonprofit"
   },
   {
-    "school": "Boston University",
+    "name": "Boston University",
     "dat_overall": 21.1,
     "dat_science": 21.5,
     "dat_perceptual": 21.7,
@@ -290,7 +290,7 @@
     "type": "Private Nonprofit"
   },
   {
-    "school": "Tufts University",
+    "name": "Tufts University",
     "dat_overall": 19,
     "dat_science": 19,
     "dat_perceptual": 19,
@@ -300,7 +300,7 @@
     "type": "Private Nonprofit"
   },
   {
-    "school": "University of Detroit Mercy",
+    "name": "University of Detroit Mercy",
     "dat_overall": 20.2,
     "dat_science": 20.2,
     "dat_perceptual": 20,
@@ -310,7 +310,7 @@
     "type": "Private Nonprofit"
   },
   {
-    "school": "University of Michigan",
+    "name": "University of Michigan",
     "dat_overall": 22.5,
     "dat_science": 22,
     "dat_perceptual": 21.9,
@@ -320,7 +320,7 @@
     "type": "Public"
   },
   {
-    "school": "University of Minnesota",
+    "name": "University of Minnesota",
     "dat_overall": 20.7,
     "dat_science": 20.2,
     "dat_perceptual": 20.9,
@@ -330,7 +330,7 @@
     "type": "Public"
   },
   {
-    "school": "University of Mississippi",
+    "name": "University of Mississippi",
     "dat_overall": 19.6,
     "dat_science": 19.1,
     "dat_perceptual": 20,
@@ -340,7 +340,7 @@
     "type": "Public"
   },
   {
-    "school": "University of Missouri, Kansas City",
+    "name": "University of Missouri, Kansas City",
     "dat_overall": 20.1,
     "dat_science": 19.7,
     "dat_perceptual": 20.4,
@@ -350,7 +350,7 @@
     "type": "Public"
   },
   {
-    "school": "Missouri School of Dentistry & Oral Health",
+    "name": "Missouri School of Dentistry & Oral Health",
     "dat_overall": 19.2,
     "dat_science": 18.6,
     "dat_perceptual": 19.5,
@@ -360,7 +360,7 @@
     "type": "Private Nonprofit"
   },
   {
-    "school": "Creighton University",
+    "name": "Creighton University",
     "dat_overall": 20,
     "dat_science": 20,
     "dat_perceptual": 21,
@@ -370,7 +370,7 @@
     "type": "Private Nonprofit"
   },
   {
-    "school": "University of Nebraska Medical Center",
+    "name": "University of Nebraska Medical Center",
     "dat_overall": 20.7,
     "dat_science": 20,
     "dat_perceptual": 20.9,
@@ -380,7 +380,7 @@
     "type": "Public"
   },
   {
-    "school": "University of Nevada, Las Vegas",
+    "name": "University of Nevada, Las Vegas",
     "dat_overall": 20.9,
     "dat_science": 20.6,
     "dat_perceptual": 20.8,
@@ -390,7 +390,7 @@
     "type": "Public"
   },
   {
-    "school": "Rutgers School of Dental Medicine",
+    "name": "Rutgers School of Dental Medicine",
     "dat_overall": 21.2,
     "dat_science": 21.4,
     "dat_perceptual": 20.6,
@@ -400,7 +400,7 @@
     "type": "Public"
   },
   {
-    "school": "Columbia University",
+    "name": "Columbia University",
     "dat_overall": 24,
     "dat_science": 24,
     "dat_perceptual": 22,
@@ -410,7 +410,7 @@
     "type": "Private Nonprofit"
   },
   {
-    "school": "New York University",
+    "name": "New York University",
     "dat_overall": 21,
     "dat_science": 20.7,
     "dat_perceptual": 20.2,
@@ -420,7 +420,7 @@
     "type": "Private Nonprofit"
   },
   {
-    "school": "Stony Brook University",
+    "name": "Stony Brook University",
     "dat_overall": 21.9,
     "dat_science": 21.7,
     "dat_perceptual": 20.8,
@@ -430,7 +430,7 @@
     "type": "Public"
   },
   {
-    "school": "Touro College of Dental Medicine",
+    "name": "Touro College of Dental Medicine",
     "dat_overall": 21.4,
     "dat_science": 21.4,
     "dat_perceptual": 21,
@@ -440,7 +440,7 @@
     "type": "Private Nonprofit"
   },
   {
-    "school": "University at Buffalo",
+    "name": "University at Buffalo",
     "dat_overall": 21.4,
     "dat_science": 21.1,
     "dat_perceptual": 20.9,
@@ -450,7 +450,7 @@
     "type": "Public"
   },
   {
-    "school": "University of North Carolina",
+    "name": "University of North Carolina",
     "dat_overall": 22.5,
     "dat_science": 22,
     "dat_perceptual": 21.5,
@@ -460,7 +460,7 @@
     "type": "Public"
   },
   {
-    "school": "East Carolina University",
+    "name": "East Carolina University",
     "dat_overall": 20.5,
     "dat_science": 20.1,
     "dat_perceptual": 20.5,
@@ -470,7 +470,7 @@
     "type": "Public"
   },
   {
-    "school": "Ohio State University",
+    "name": "Ohio State University",
     "dat_overall": 20.9,
     "dat_science": 20.5,
     "dat_perceptual": 21.3,
@@ -480,7 +480,7 @@
     "type": "Public"
   },
   {
-    "school": "Case Western Reserve University",
+    "name": "Case Western Reserve University",
     "dat_overall": 20.8,
     "dat_science": 20.1,
     "dat_perceptual": 20.3,
@@ -490,7 +490,7 @@
     "type": "Private Nonprofit"
   },
   {
-    "school": "University of Oklahoma",
+    "name": "University of Oklahoma",
     "dat_overall": 19.7,
     "dat_science": 19,
     "dat_perceptual": 19.8,
@@ -500,7 +500,7 @@
     "type": "Public"
   },
   {
-    "school": "Oregon Health & Science University",
+    "name": "Oregon Health & Science University",
     "dat_overall": 21.1,
     "dat_science": 20.7,
     "dat_perceptual": 21.2,
@@ -510,7 +510,7 @@
     "type": "Public"
   },
   {
-    "school": "Temple University",
+    "name": "Temple University",
     "dat_overall": 21.3,
     "dat_science": 21,
     "dat_perceptual": 20.5,
@@ -520,7 +520,7 @@
     "type": "Private/State-Related"
   },
   {
-    "school": "University of Pennsylvania",
+    "name": "University of Pennsylvania",
     "dat_overall": 22.9,
     "dat_science": 22.4,
     "dat_perceptual": 21.8,
@@ -530,7 +530,7 @@
     "type": "Private Nonprofit"
   },
   {
-    "school": "University of Pittsburgh",
+    "name": "University of Pittsburgh",
     "dat_overall": 20.7,
     "dat_science": 20.2,
     "dat_perceptual": 20.4,
@@ -540,7 +540,7 @@
     "type": "Private/State-Related"
   },
   {
-    "school": "Medical University of South Carolina",
+    "name": "Medical University of South Carolina",
     "dat_overall": 19.8,
     "dat_science": "N/A",
     "dat_perceptual": 21,
@@ -550,7 +550,7 @@
     "type": "Public"
   },
   {
-    "school": "Lincoln Memorial University",
+    "name": "Lincoln Memorial University",
     "dat_overall": 18.8,
     "dat_science": 18.6,
     "dat_perceptual": 18.4,
@@ -560,7 +560,7 @@
     "type": "Private Nonprofit"
   },
   {
-    "school": "Meharry Medical College",
+    "name": "Meharry Medical College",
     "dat_overall": 17.4,
     "dat_science": 17,
     "dat_perceptual": 17.1,
@@ -570,7 +570,7 @@
     "type": "Private Nonprofit"
   },
   {
-    "school": "University of Tennessee College of Dentistry",
+    "name": "University of Tennessee College of Dentistry",
     "dat_overall": 20.1,
     "dat_science": 19.4,
     "dat_perceptual": 20.2,
@@ -580,7 +580,7 @@
     "type": "Public"
   },
   {
-    "school": "Texas A&M University",
+    "name": "Texas A&M University",
     "dat_overall": 22,
     "dat_science": 22,
     "dat_perceptual": 21,
@@ -590,7 +590,7 @@
     "type": "Public"
   },
   {
-    "school": "Texas Tech University Health Sciences Center El Paso",
+    "name": "Texas Tech University Health Sciences Center El Paso",
     "dat_overall": 20.2,
     "dat_science": 19.7,
     "dat_perceptual": 20.4,
@@ -600,7 +600,7 @@
     "type": "Public"
   },
   {
-    "school": "University of Texas at Houston",
+    "name": "University of Texas at Houston",
     "dat_overall": 22.1,
     "dat_science": 21.9,
     "dat_perceptual": 21,
@@ -610,7 +610,7 @@
     "type": "Public"
   },
   {
-    "school": "UT Health San Antonio",
+    "name": "UT Health San Antonio",
     "dat_overall": 21.8,
     "dat_science": 21.6,
     "dat_perceptual": 21.1,
@@ -620,7 +620,7 @@
     "type": "Public"
   },
   {
-    "school": "Roseman University of Health Sciences",
+    "name": "Roseman University of Health Sciences",
     "dat_overall": 19.6,
     "dat_science": 19,
     "dat_perceptual": 20,
@@ -630,7 +630,7 @@
     "type": "Private Nonprofit"
   },
   {
-    "school": "University of Utah",
+    "name": "University of Utah",
     "dat_overall": 21,
     "dat_science": 21,
     "dat_perceptual": 21,
@@ -640,7 +640,7 @@
     "type": "Public"
   },
   {
-    "school": "Virginia Commonwealth University",
+    "name": "Virginia Commonwealth University",
     "dat_overall": 21.3,
     "dat_science": 20.8,
     "dat_perceptual": 20.9,
@@ -650,7 +650,7 @@
     "type": "Public"
   },
   {
-    "school": "University of Washington",
+    "name": "University of Washington",
     "dat_overall": 21,
     "dat_science": 20.9,
     "dat_perceptual": 21,
@@ -660,7 +660,7 @@
     "type": "Public"
   },
   {
-    "school": "West Virginia University",
+    "name": "West Virginia University",
     "dat_overall": 19,
     "dat_science": 19,
     "dat_perceptual": 20,
@@ -670,7 +670,7 @@
     "type": "Public"
   },
   {
-    "school": "Marquette University",
+    "name": "Marquette University",
     "dat_overall": 20.5,
     "dat_science": 20.1,
     "dat_perceptual": 20.8,
@@ -680,7 +680,7 @@
     "type": "Private/State-Related"
   },
   {
-    "school": "University of Puerto Rico",
+    "name": "University of Puerto Rico",
     "dat_overall": 20,
     "dat_science": 18,
     "dat_perceptual": 19,

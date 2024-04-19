@@ -9,14 +9,14 @@ const Metrics = () => {
       <Accordion defaultActiveKey="0">
         <MetricItem
           eventKey="gpa"
-          header="Median GPA"
+          header="Mean GPA"
           body="The median undergraduate GPA of applicants admitted"
           minPlaceHolder="3.1"
           maxPlaceHolder="3.5"
         />
         <MetricItem
           eventKey="dat"
-          header="Median DAT"
+          header="Mean DAT"
           body="The median DAT score of applicants admitted"
           minPlaceHolder="13"
           maxPlaceHolder="20"

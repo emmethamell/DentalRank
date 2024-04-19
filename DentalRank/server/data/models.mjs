@@ -12,11 +12,15 @@ function getSchools(stu_fac, app_admit, dat_overall, gpa_overall){
                    (!dat_overall || (obj.dat_overall && dat_overall.min ? obj.dat_overall >= dat_overall.min : true) && (obj.dat_overall && dat_overall.max ? obj.dat_overall <= dat_overall.max : true)) &&
                    (!gpa_overall || (obj.gpa_overall && gpa_overall.min ? obj.gpa_overall >= gpa_overall.min : true) && (obj.gpa_overall && gpa_overall.max ? obj.gpa_overall <= gpa_overall.max : true));
         });
+
+        /*
         return jsonData.map((obj) => {
             return obj.school
         });
-
-
+        */
+       
+        //return list of objects instead
+        return jsonData
 
     } catch (err) {
         return [err.toString()]

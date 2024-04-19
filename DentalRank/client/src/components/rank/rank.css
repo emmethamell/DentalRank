@@ -1,26 +1,72 @@
 .metrics,
 .dentalschools {
-    padding: 0;
+  padding: 0;
 }
 
+
 .title {
-    padding: 30px;
+  padding: 30px;
 }
 
 .titlerow {
-    background-color: rgba(128, 128, 128, 0.5);
+  background-color: rgba(128, 128, 128, 0.5);
 }
 
 .list-group {
-    border-radius: 0;
+  border-radius: 0;
 }
 
-.accordion-item, .accordion-button  {
-    border-radius: 0 !important;
+.accordion-item,
+.accordion-button {
+  border-radius: 0 !important;
 }
 
 .accordion-button:focus {
-    box-shadow: none;
-    border-color: rgba(0,0,0,.125);
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, 0.125);
 }
+
+.right-border {
+  border-left: 1px solid #000;
+}
+
+.card-padding {
+    padding: 15px 0px !important;
+}
+
+/* MEDIA */
+
+/* SMALL SCREEN */
+@media (max-width: 576px) {
+
+  .header-text {
+    font-size: 12px;
+  }
+
+}
+
+
+/* LARGE SCREEN */
+@media (min-width: 577px) {
+
+  .dentalAccordion {
+    padding: 10px 30px; 
+  }
+
+  .header-text {
+    font-size: 15px;
+  }
+
+}
+
+.header-text {
+    background: none;
+    border: none;
+    padding:0;
+}
+
+.custom-border-bottom {
+    border-bottom: 1px solid #000;
+}
+
 

@@ -26,13 +26,13 @@ const MetricItem = ({
       <Accordion.Header>{header}</Accordion.Header>
       <Accordion.Body>
         {body}
-        <Form>
+        <Form className="p-2">
           <Row>
             <Col>
               <Form.Group controlId={`formMin${eventKey}`}>
-                <Row>
+                <Row className="align-items-center">
                   <Col xs="auto">
-                    <Form.Label>Min: </Form.Label>
+                    <Form.Label>Min:</Form.Label>
                   </Col>
                   <Col>
                     <Form.Control
@@ -46,7 +46,7 @@ const MetricItem = ({
             </Col>
             <Col>
               <Form.Group controlId={`formMax${eventKey}`}>
-                <Row>
+                <Row className="align-items-center">
                   <Col xs="auto">
                     <Form.Label>Max: </Form.Label>
                   </Col>
