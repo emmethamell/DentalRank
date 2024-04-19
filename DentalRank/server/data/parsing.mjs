@@ -2,7 +2,7 @@
 import XLSX from 'xlsx';
 import fs from 'fs';
 
-function parseExcelAndWrite() {
+function parseAndWriteGPADAT() {
     
     const workbook = XLSX.readFile('./SDE2_2022-23-final.xlsx');
     const sheetNameList = workbook.SheetNames;
@@ -43,7 +43,17 @@ function parseExcelAndWrite() {
         const { school, ...rest } = item;
         return { name: school, ...rest };
       });
-    
+
+    // get the acceptance data
+    let acceptanceData = parseAcceptance();
+    data.forEach((obj) => {
+        let schoolName = obj['name'];
+        let cur = acceptanceData.find((accObj) => {
+            return accObj['name'] === schoolName
+        })
+        console.log(cur)
+        obj['percent'] = cur['percent']
+    });
     // convert to string and write to file
     data = JSON.stringify(data, null, 2);
     fs.writeFile('./data.json', data, (err) => {
@@ -56,6 +66,21 @@ function parseExcelAndWrite() {
 
 }
 
+//return [{ name: 'schoolName', percent: acceptanceRate }, ... ]
+function parseAcceptance() {
+    const workbook = XLSX.readFile('./SDE2_2022-23-final.xlsx');
+    let data = XLSX.utils.sheet_to_json(workbook.Sheets['Tab9'], { range: 3 });
+    data = data.slice(0, 69);
+
+    data = data.map((obj) => {
+        let newObj = {name: obj['United States, CODA-Accredited Dental Schools'], percent: obj['Percent_2']}
+        return newObj
+    });
+
+    return data
+}
+
+parseAndWriteGPADAT();
 
 
 

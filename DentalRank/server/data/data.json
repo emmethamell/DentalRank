@@ -7,7 +7,8 @@
     "gpa_science": 3.71,
     "gpa_overall": 3.77,
     "location": "AL",
-    "type": "Public"
+    "type": "Public",
+    "percent": 7.1
   },
   {
     "name": "Arizona School of Dentistry & Oral Health",
@@ -17,7 +18,8 @@
     "gpa_science": 3.32,
     "gpa_overall": 3.43,
     "location": "AZ",
-    "type": "Private Nonprofit"
+    "type": "Private Nonprofit",
+    "percent": 2.8
   },
   {
     "name": "Midwestern University - AZ",
@@ -27,7 +29,8 @@
     "gpa_science": 3.45,
     "gpa_overall": 3.54,
     "location": "AZ",
-    "type": "Private Nonprofit"
+    "type": "Private Nonprofit",
+    "percent": 5.6
   },
   {
     "name": "California Northstate University",
@@ -37,7 +40,8 @@
     "gpa_science": 3.2,
     "gpa_overall": 3.3,
     "location": "CA",
-    "type": "Private For-Profit"
+    "type": "Private For-Profit",
+    "percent": 6.2
   },
   {
     "name": "University of the Pacific",
@@ -47,7 +51,8 @@
     "gpa_science": 3.55,
     "gpa_overall": 3.63,
     "location": "CA",
-    "type": "Private Nonprofit"
+    "type": "Private Nonprofit",
+    "percent": 6.8
   },
   {
     "name": "University of California, San Francisco",
@@ -57,7 +62,8 @@
     "gpa_science": 3.61,
     "gpa_overall": 3.68,
     "location": "CA",
-    "type": "Public"
+    "type": "Public",
+    "percent": 4.2
   },
   {
     "name": "University of California, Los Angeles",
@@ -67,7 +73,8 @@
     "gpa_science": 3.81,
     "gpa_overall": 3.83,
     "location": "CA",
-    "type": "Public"
+    "type": "Public",
+    "percent": 5.8
   },
   {
     "name": "Herman Ostrow School of Dentistry of USC",
@@ -77,7 +84,8 @@
     "gpa_science": 3.67,
     "gpa_overall": 3.73,
     "location": "CA",
-    "type": "Private Nonprofit"
+    "type": "Private Nonprofit",
+    "percent": 6.3
   },
   {
     "name": "Loma Linda University",
@@ -87,7 +95,8 @@
     "gpa_science": 3.42,
     "gpa_overall": 3.5,
     "location": "CA",
-    "type": "Private Nonprofit"
+    "type": "Private Nonprofit",
+    "percent": 7.4
   },
   {
     "name": "Western University of Health Sciences",
@@ -97,7 +106,8 @@
     "gpa_science": 3.25,
     "gpa_overall": 3.35,
     "location": "CA",
-    "type": "Private Nonprofit"
+    "type": "Private Nonprofit",
+    "percent": 2.8
   },
   {
     "name": "University of Colorado",
@@ -107,7 +117,8 @@
     "gpa_science": 3.48,
     "gpa_overall": 3.5,
     "location": "CO",
-    "type": "Public"
+    "type": "Public",
+    "percent": 4.1
   },
   {
     "name": "University of Connecticut",
@@ -117,7 +128,8 @@
     "gpa_science": 3.53,
     "gpa_overall": 3.63,
     "location": "CT",
-    "type": "Public"
+    "type": "Public",
+    "percent": 4
   },
   {
     "name": "Howard University",
@@ -127,7 +139,8 @@
     "gpa_science": 3.16,
     "gpa_overall": 3.31,
     "location": "DC",
-    "type": "Private Nonprofit"
+    "type": "Private Nonprofit",
+    "percent": 8.9
   },
   {
     "name": "University of Florida",
@@ -137,7 +150,8 @@
     "gpa_science": 3.77,
     "gpa_overall": 3.82,
     "location": "FL",
-    "type": "Public"
+    "type": "Public",
+    "percent": 5.5
   },
   {
     "name": "Nova Southeastern University",
@@ -147,7 +161,8 @@
     "gpa_science": 3.6,
     "gpa_overall": 3.7,
     "location": "FL",
-    "type": "Private Nonprofit"
+    "type": "Private Nonprofit",
+    "percent": 6
   },
   {
     "name": "LECOM College of Dental Medicine",
@@ -157,7 +172,8 @@
     "gpa_science": 3.6,
     "gpa_overall": 3.7,
     "location": "FL",
-    "type": "Private Nonprofit"
+    "type": "Private Nonprofit",
+    "percent": 2.8
   },
   {
     "name": "Augusta University",
@@ -167,7 +183,8 @@
     "gpa_science": 3.68,
     "gpa_overall": 3.74,
     "location": "GA",
-    "type": "Public"
+    "type": "Public",
+    "percent": 9.3
   },
   {
     "name": "Southern Illinois University",
@@ -177,7 +194,8 @@
     "gpa_science": 3.58,
     "gpa_overall": 3.68,
     "location": "IL",
-    "type": "Public"
+    "type": "Public",
+    "percent": 6.7
   },
   {
     "name": "University of Illinois, Chicago",
@@ -187,7 +205,8 @@
     "gpa_science": 3.58,
     "gpa_overall": 3.66,
     "location": "IL",
-    "type": "Public"
+    "type": "Public",
+    "percent": 4.6
   },
   {
     "name": "Midwestern University - IL",
@@ -197,7 +216,8 @@
     "gpa_science": 3.25,
     "gpa_overall": 3.41,
     "location": "IL",
-    "type": "Private Nonprofit"
+    "type": "Private Nonprofit",
+    "percent": 5.4
   },
   {
     "name": "Indiana University",
@@ -207,7 +227,8 @@
     "gpa_science": 3.54,
     "gpa_overall": 3.63,
     "location": "IN",
-    "type": "Public"
+    "type": "Public",
+    "percent": 9.5
   },
   {
     "name": "University of Iowa",
@@ -217,7 +238,8 @@
     "gpa_science": 3.66,
     "gpa_overall": 3.73,
     "location": "IA",
-    "type": "Public"
+    "type": "Public",
+    "percent": 9.7
   },
   {
     "name": "University of Kentucky",
@@ -227,7 +249,8 @@
     "gpa_science": 3.54,
     "gpa_overall": 3.63,
     "location": "KY",
-    "type": "Public"
+    "type": "Public",
+    "percent": 6.7
   },
   {
     "name": "University of Louisville",
@@ -237,7 +260,8 @@
     "gpa_science": 3.46,
     "gpa_overall": 3.59,
     "location": "KY",
-    "type": "Public"
+    "type": "Public",
+    "percent": 6.8
   },
   {
     "name": "LSU Health Sciences Center",
@@ -247,7 +271,8 @@
     "gpa_science": 3.51,
     "gpa_overall": 3.62,
     "location": "LA",
-    "type": "Public"
+    "type": "Public",
+    "percent": 10.2
   },
   {
     "name": "University of New England",
@@ -257,7 +282,8 @@
     "gpa_science": 3.48,
     "gpa_overall": 3.58,
     "location": "ME",
-    "type": "Private Nonprofit"
+    "type": "Private Nonprofit",
+    "percent": 7.4
   },
   {
     "name": "University of Maryland",
@@ -267,7 +293,8 @@
     "gpa_science": 3.5,
     "gpa_overall": 3.6,
     "location": "MD",
-    "type": "Public"
+    "type": "Public",
+    "percent": 5.4
   },
   {
     "name": "Harvard University",
@@ -277,7 +304,8 @@
     "gpa_science": 3.93,
     "gpa_overall": 3.94,
     "location": "MA",
-    "type": "Private Nonprofit"
+    "type": "Private Nonprofit",
+    "percent": 3.5
   },
   {
     "name": "Boston University",
@@ -287,7 +315,8 @@
     "gpa_science": 3.43,
     "gpa_overall": 3.53,
     "location": "MA",
-    "type": "Private Nonprofit"
+    "type": "Private Nonprofit",
+    "percent": 4.8
   },
   {
     "name": "Tufts University",
@@ -297,7 +326,8 @@
     "gpa_science": 3.28,
     "gpa_overall": 3.32,
     "location": "MA",
-    "type": "Private Nonprofit"
+    "type": "Private Nonprofit",
+    "percent": 5.3
   },
   {
     "name": "University of Detroit Mercy",
@@ -307,7 +337,8 @@
     "gpa_science": 3.59,
     "gpa_overall": 3.66,
     "location": "MI",
-    "type": "Private Nonprofit"
+    "type": "Private Nonprofit",
+    "percent": 7.9
   },
   {
     "name": "University of Michigan",
@@ -317,7 +348,8 @@
     "gpa_science": 3.75,
     "gpa_overall": 3.8,
     "location": "MI",
-    "type": "Public"
+    "type": "Public",
+    "percent": 6.6
   },
   {
     "name": "University of Minnesota",
@@ -327,7 +359,8 @@
     "gpa_science": 3.54,
     "gpa_overall": 3.62,
     "location": "MN",
-    "type": "Public"
+    "type": "Public",
+    "percent": 9.7
   },
   {
     "name": "University of Mississippi",
@@ -337,7 +370,8 @@
     "gpa_science": 3.69,
     "gpa_overall": 3.53,
     "location": "MS",
-    "type": "Public"
+    "type": "Public",
+    "percent": 19.1
   },
   {
     "name": "University of Missouri, Kansas City",
@@ -347,7 +381,8 @@
     "gpa_science": 3.61,
     "gpa_overall": 3.71,
     "location": "MO",
-    "type": "Public"
+    "type": "Public",
+    "percent": 11.7
   },
   {
     "name": "Missouri School of Dentistry & Oral Health",
@@ -357,7 +392,8 @@
     "gpa_science": 3.41,
     "gpa_overall": 3.54,
     "location": "MO",
-    "type": "Private Nonprofit"
+    "type": "Private Nonprofit",
+    "percent": 3.7
   },
   {
     "name": "Creighton University",
@@ -367,7 +403,8 @@
     "gpa_science": 3.49,
     "gpa_overall": 3.62,
     "location": "NE",
-    "type": "Private Nonprofit"
+    "type": "Private Nonprofit",
+    "percent": 5.9
   },
   {
     "name": "University of Nebraska Medical Center",
@@ -377,7 +414,8 @@
     "gpa_science": 3.63,
     "gpa_overall": 3.71,
     "location": "NE",
-    "type": "Public"
+    "type": "Public",
+    "percent": 7.3
   },
   {
     "name": "University of Nevada, Las Vegas",
@@ -387,7 +425,8 @@
     "gpa_science": 3.43,
     "gpa_overall": 3.49,
     "location": "NV",
-    "type": "Public"
+    "type": "Public",
+    "percent": 4.8
   },
   {
     "name": "Rutgers School of Dental Medicine",
@@ -397,7 +436,8 @@
     "gpa_science": 3.59,
     "gpa_overall": 3.65,
     "location": "NJ",
-    "type": "Public"
+    "type": "Public",
+    "percent": 3.9
   },
   {
     "name": "Columbia University",
@@ -407,7 +447,8 @@
     "gpa_science": 3.7,
     "gpa_overall": 3.73,
     "location": "NY",
-    "type": "Private Nonprofit"
+    "type": "Private Nonprofit",
+    "percent": 5.5
   },
   {
     "name": "New York University",
@@ -417,7 +458,8 @@
     "gpa_science": 3.29,
     "gpa_overall": 3.41,
     "location": "NY",
-    "type": "Private Nonprofit"
+    "type": "Private Nonprofit",
+    "percent": 12.4
   },
   {
     "name": "Stony Brook University",
@@ -427,7 +469,8 @@
     "gpa_science": 3.69,
     "gpa_overall": 3.74,
     "location": "NY",
-    "type": "Public"
+    "type": "Public",
+    "percent": 4.3
   },
   {
     "name": "Touro College of Dental Medicine",
@@ -437,7 +480,8 @@
     "gpa_science": 3.43,
     "gpa_overall": 3.54,
     "location": "NY",
-    "type": "Private Nonprofit"
+    "type": "Private Nonprofit",
+    "percent": 4.2
   },
   {
     "name": "University at Buffalo",
@@ -447,7 +491,8 @@
     "gpa_science": 3.64,
     "gpa_overall": 3.69,
     "location": "NY",
-    "type": "Public"
+    "type": "Public",
+    "percent": 4
   },
   {
     "name": "University of North Carolina",
@@ -457,7 +502,8 @@
     "gpa_science": 3.59,
     "gpa_overall": 3.65,
     "location": "NC",
-    "type": "Public"
+    "type": "Public",
+    "percent": 5.9
   },
   {
     "name": "East Carolina University",
@@ -467,7 +513,8 @@
     "gpa_science": 3.5,
     "gpa_overall": 3.6,
     "location": "NC",
-    "type": "Public"
+    "type": "Public",
+    "percent": 15.7
   },
   {
     "name": "Ohio State University",
@@ -477,7 +524,8 @@
     "gpa_science": 3.57,
     "gpa_overall": 3.63,
     "location": "OH",
-    "type": "Public"
+    "type": "Public",
+    "percent": 10.5
   },
   {
     "name": "Case Western Reserve University",
@@ -487,7 +535,8 @@
     "gpa_science": 3.6,
     "gpa_overall": 3.51,
     "location": "OH",
-    "type": "Private Nonprofit"
+    "type": "Private Nonprofit",
+    "percent": 3.5
   },
   {
     "name": "University of Oklahoma",
@@ -497,7 +546,8 @@
     "gpa_science": 3.61,
     "gpa_overall": 3.67,
     "location": "OK",
-    "type": "Public"
+    "type": "Public",
+    "percent": 7.8
   },
   {
     "name": "Oregon Health & Science University",
@@ -507,7 +557,8 @@
     "gpa_science": 3.69,
     "gpa_overall": 3.74,
     "location": "OR",
-    "type": "Public"
+    "type": "Public",
+    "percent": 9.4
   },
   {
     "name": "Temple University",
@@ -517,7 +568,8 @@
     "gpa_science": 3.48,
     "gpa_overall": 3.57,
     "location": "PA",
-    "type": "Private/State-Related"
+    "type": "Private/State-Related",
+    "percent": 5.1
   },
   {
     "name": "University of Pennsylvania",
@@ -527,7 +579,8 @@
     "gpa_science": 3.71,
     "gpa_overall": 3.77,
     "location": "PA",
-    "type": "Private Nonprofit"
+    "type": "Private Nonprofit",
+    "percent": 6.8
   },
   {
     "name": "University of Pittsburgh",
@@ -537,7 +590,8 @@
     "gpa_science": 3.62,
     "gpa_overall": 3.72,
     "location": "PA",
-    "type": "Private/State-Related"
+    "type": "Private/State-Related",
+    "percent": 4.4
   },
   {
     "name": "Medical University of South Carolina",
@@ -547,7 +601,8 @@
     "gpa_science": 3.55,
     "gpa_overall": 3.62,
     "location": "SC",
-    "type": "Public"
+    "type": "Public",
+    "percent": 5.3
   },
   {
     "name": "Lincoln Memorial University",
@@ -557,7 +612,8 @@
     "gpa_science": 3.26,
     "gpa_overall": 3.4,
     "location": "TN",
-    "type": "Private Nonprofit"
+    "type": "Private Nonprofit",
+    "percent": 20.7
   },
   {
     "name": "Meharry Medical College",
@@ -567,7 +623,8 @@
     "gpa_science": 3.11,
     "gpa_overall": 3.27,
     "location": "TN",
-    "type": "Private Nonprofit"
+    "type": "Private Nonprofit",
+    "percent": 2.7
   },
   {
     "name": "University of Tennessee College of Dentistry",
@@ -577,7 +634,8 @@
     "gpa_science": 3.58,
     "gpa_overall": 3.66,
     "location": "TN",
-    "type": "Public"
+    "type": "Public",
+    "percent": 8.2
   },
   {
     "name": "Texas A&M University",
@@ -587,7 +645,8 @@
     "gpa_science": 3.65,
     "gpa_overall": 3.75,
     "location": "TX",
-    "type": "Public"
+    "type": "Public",
+    "percent": 6.1
   },
   {
     "name": "Texas Tech University Health Sciences Center El Paso",
@@ -597,7 +656,8 @@
     "gpa_science": 3.55,
     "gpa_overall": 3.67,
     "location": "TX",
-    "type": "Public"
+    "type": "Public",
+    "percent": 6.4
   },
   {
     "name": "University of Texas at Houston",
@@ -607,7 +667,8 @@
     "gpa_science": 3.79,
     "gpa_overall": 3.83,
     "location": "TX",
-    "type": "Public"
+    "type": "Public",
+    "percent": 6.1
   },
   {
     "name": "UT Health San Antonio",
@@ -617,7 +678,8 @@
     "gpa_science": 3.68,
     "gpa_overall": 3.77,
     "location": "TX",
-    "type": "Public"
+    "type": "Public",
+    "percent": 10.5
   },
   {
     "name": "Roseman University of Health Sciences",
@@ -627,7 +689,8 @@
     "gpa_science": 3.18,
     "gpa_overall": 3.32,
     "location": "UT",
-    "type": "Private Nonprofit"
+    "type": "Private Nonprofit",
+    "percent": 4.9
   },
   {
     "name": "University of Utah",
@@ -637,7 +700,8 @@
     "gpa_science": 3.67,
     "gpa_overall": 3.72,
     "location": "UT",
-    "type": "Public"
+    "type": "Public",
+    "percent": 11.2
   },
   {
     "name": "Virginia Commonwealth University",
@@ -647,7 +711,8 @@
     "gpa_science": 3.54,
     "gpa_overall": 3.62,
     "location": "VA",
-    "type": "Public"
+    "type": "Public",
+    "percent": 4.8
   },
   {
     "name": "University of Washington",
@@ -657,7 +722,8 @@
     "gpa_science": 3.53,
     "gpa_overall": 3.61,
     "location": "WA",
-    "type": "Public"
+    "type": "Public",
+    "percent": 9.1
   },
   {
     "name": "West Virginia University",
@@ -667,7 +733,8 @@
     "gpa_science": 3.75,
     "gpa_overall": 3.67,
     "location": "WV",
-    "type": "Public"
+    "type": "Public",
+    "percent": 5
   },
   {
     "name": "Marquette University",
@@ -677,7 +744,8 @@
     "gpa_science": 3.55,
     "gpa_overall": 3.64,
     "location": "WI",
-    "type": "Private/State-Related"
+    "type": "Private/State-Related",
+    "percent": 3.9
   },
   {
     "name": "University of Puerto Rico",
@@ -687,6 +755,7 @@
     "gpa_science": 3.59,
     "gpa_overall": 3.58,
     "location": "PR",
-    "type": "Public"
+    "type": "Public",
+    "percent": 10.6
   }
 ]

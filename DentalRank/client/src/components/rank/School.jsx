@@ -66,6 +66,15 @@ export const School = ({ school, eventKey }) => {
                     {school.dat_overall + " / " + school.dat_science + " / " + school.dat_perceptual}
                   </Col>
                 </Row>
+                <Row
+                  className="custom-border-bottom"
+                  style={{ margin: "0 -20px" }}
+                >
+                  <Col style={{ padding: "10px 15px" }}>Acceptance Rate:</Col>
+                  <Col style={{ padding: "10px 15px" }}>
+                    {school.percent + "%"}
+                  </Col>
+                </Row>
                 <Row 
                   style={{ margin: "0 -20px" }}
                 >
