@@ -13,7 +13,9 @@ function App() {
     <div>
       <MetricsProvider>
         <Router>
+        <div className="header">
           <Header />
+        </div>
           <AppRoutes />
         </Router>
       </MetricsProvider>

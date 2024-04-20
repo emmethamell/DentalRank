@@ -3,6 +3,10 @@ import { School } from './School';
 import { ListGroup, Accordion } from "react-bootstrap";
 import MetricsContext from "./MetricsContext";
 import "./rank.css";
+import { Container } from 'react-bootstrap';
+
+import { NewSchool} from './NewSchool';
+
 const DentalSchools = () => {
   const { metrics } = useContext(MetricsContext);
   const [schools, setSchools] = useState([]);

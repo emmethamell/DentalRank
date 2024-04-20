@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import { Accordion, Row, Col } from "react-bootstrap";
+import { Container, Accordion, Row, Col } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 import "./rank.css";
+import ListGroup from 'react-bootstrap/ListGroup'
 
 export const School = ({ school, eventKey }) => {
   const [activeKey, setActiveKey] = useState(null);
@@ -15,38 +16,41 @@ export const School = ({ school, eventKey }) => {
         >
           <Accordion.Item
             eventKey={eventKey}
-            style={{ border: "1px solid #000", outline: "none" }}
+            style={{ border: "1px solid #000", outline: "none", overflow: 'hidden'}}
           >
-            <Row style={{ display: "flex" }}>
+            <Container style={{padding:"0"}} fluid>
+            <Row style={{ display: "flex"}}>
               <Col
                 lg={1}
                 md={2}
                 sm={2}
                 xs={3}
                 className="text-center"
-                style={{ marginLeft: "0px", alignSelf: "center" }}
+                style={{ alignSelf: "center"}}
               >
-                <div className="number">{Number(eventKey) + 1}</div>
+                <div className="number">{Number(eventKey) + 1 + "."}</div>
               </Col>
               <Col
                 lg={11}
                 md={10}
                 sm={10}
                 xs={9}
-                style={{ alignSelf: "center" }}
+                style={{ alignSelf: "center"}}
               >
-                <Accordion.Header className="right-border">
+                <Accordion.Header style={{}}>
                   <Card.Header className="header-text">
                     {school.name}
                   </Card.Header>
                 </Accordion.Header>
               </Col>
             </Row>
+            </Container>
             <div
               style={{
                 borderTop: activeKey === eventKey ? "1px solid #000" : "none",
               }}
             >
+
               <Accordion.Body>
                 <Row
                   className="custom-border-bottom"
@@ -84,10 +88,12 @@ export const School = ({ school, eventKey }) => {
                   </Col>
                 </Row>
               </Accordion.Body>
+
             </div>
           </Accordion.Item>
         </Card>
       </Accordion>
+
     </div>
   );
 };

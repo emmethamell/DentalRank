@@ -9,11 +9,11 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="bg-body-tertiary justify-content-center" bg="light" fixed="top" style={{padding:'20px 0'}}>
       <Container>
         <Navbar.Brand
           href="/"
-          style={{ display: "flex", alignItems: "center", fontSize: "1.9em" }}
+          style={{ marginLeft:"50px", display: "flex", alignItems: "center", fontSize: "1.9em" }}
         >
           <img
             src={logo}
@@ -24,16 +24,16 @@ const Header = () => {
           />
           DentalRank
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto">
-            <Nav.Link as={Link} to="/">
+          <Nav className="ms-auto" style={{marginRight:"50px"}}>
+            <Nav.Link className="nav-link" as={Link} to="/">
               Home
             </Nav.Link>
-            <Nav.Link as={Link} to="/rank">
+            <Nav.Link className="nav-link" as={Link} to="/rank">
               Rank
             </Nav.Link>
-            <Nav.Link as={Link} to="/compare">
+            <Nav.Link className="nav-link" as={Link} to="/compare">
               Compare
             </Nav.Link>
           </Nav>

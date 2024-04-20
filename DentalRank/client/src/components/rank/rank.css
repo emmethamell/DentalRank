@@ -5,21 +5,18 @@
 
 
 .title {
-  padding: 30px;
+  padding: 100px;
 }
 
 .titlerow {
   background-color: rgba(128, 128, 128, 0.5);
+  padding: 20px
 }
 
 .list-group {
   border-radius: 0;
 }
 
-.accordion-item,
-.accordion-button {
-  border-radius: 0 !important;
-}
 
 .accordion-button:focus {
   box-shadow: none;

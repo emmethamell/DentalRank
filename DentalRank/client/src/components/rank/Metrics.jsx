@@ -5,8 +5,8 @@ import "./rank.css";
 
 const Metrics = () => {
   return (
-    <ListGroup>
-      <Accordion defaultActiveKey="0">
+    <ListGroup >
+      <Accordion defaultActiveKey="0" flush>
         <MetricItem
           eventKey="gpa"
           header="Mean GPA"

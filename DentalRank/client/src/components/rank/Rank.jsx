@@ -6,7 +6,10 @@ import "./rank.css";
 const Rank = () => {
   return (
     <Container>
-      <h1 className="title">My Rank</h1>
+      <Row className="title">
+        <h1>My Rank</h1>
+        <h5>Create your own dental school rankings</h5>
+      </Row>
       <Row className="titlerow">
         <Col sm={4}>
           <h2>Metrics</h2>
