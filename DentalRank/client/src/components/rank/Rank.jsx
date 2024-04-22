@@ -1,7 +1,8 @@
-import { Container, Row, Col, ListGroup } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import Metrics from "./Metrics";
 import DentalSchools from "./DentalSchools";
 import "./rank.css";
+
 
 const Rank = () => {
   return (
@@ -10,12 +11,17 @@ const Rank = () => {
         <h1>My Rank</h1>
         <h5>Create your own dental school rankings</h5>
       </Row>
+      <Container className="container-rank">
       <Row className="titlerow">
+
         <Col sm={4}>
           <h2>Metrics</h2>
         </Col>
-        <Col sm={8}>
-          <h2>Dental Schools</h2>
+        <Col sm={8} className="dental-title">
+            <h2>
+               Dental Schools 
+              <Button variant="primary" style={{float:"right"}}>Save Ranking</Button>{''}
+            </h2>
         </Col>
       </Row>
       <Row>
@@ -26,6 +32,7 @@ const Rank = () => {
           <DentalSchools />
         </Col>
       </Row>
+      </Container>
     </Container>
   );
 };

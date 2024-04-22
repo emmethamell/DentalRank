@@ -3,7 +3,7 @@ import "./home.css"
 
 const Home = () => {
     return (
-        <div>
+        <div className="home">
             <div className="jumbotron">
                 <h1 className="display-4">Rank your Dental Schools</h1>
                 <p className="lead">Choose what matters most to you in order to rank dental schools</p>

@@ -3,9 +3,12 @@ import "./header.css";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import Badge from 'react-bootstrap/Badge';
 import NavDropdown from "react-bootstrap/NavDropdown";
 import logo from "../../assets/tooth.png";
 import { Link } from "react-router-dom";
+import { Button } from 'react-bootstrap';
+
 
 const Header = () => {
   return (
@@ -35,6 +38,11 @@ const Header = () => {
             </Nav.Link>
             <Nav.Link className="nav-link" as={Link} to="/compare">
               Compare
+            </Nav.Link>
+            <Nav.Link className="nav-link" as={Link} to="/signin">
+              <h4>
+              <Badge bg="primary">Sign In</Badge>
+              </h4>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
