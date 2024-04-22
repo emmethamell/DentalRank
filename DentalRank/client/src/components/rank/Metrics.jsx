@@ -25,8 +25,8 @@ const Metrics = () => {
           eventKey="app_admit"
           header="Acceptance Rate"
           body="Percentage of applicants admitted"
-          minPlaceHolder="50"
-          maxPlaceHolder="90"
+          minPlaceHolder="0"
+          maxPlaceHolder="100"
         />
         <MetricItem
           eventKey="stu_fac"
