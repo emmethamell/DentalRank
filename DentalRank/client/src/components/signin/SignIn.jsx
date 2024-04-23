@@ -7,6 +7,7 @@ import Nav from "react-bootstrap/Nav";
 import Badge from "react-bootstrap/Badge";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import  Account from "../account/Account";
 
 const SignIn = () => {
   const [email, setEmail] = useState("");
@@ -51,12 +52,6 @@ const SignIn = () => {
       }
     }
   };
-
-  if (user) {
-    return (
-      <div style={{ padding: "50px" }}>{user.name} is logged in</div>
-    );
-  }
 
   return (
     <div className="sign-in-page">

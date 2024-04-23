@@ -20,7 +20,7 @@ const Rank = () => {
         <Col sm={8} className="dental-title">
             <h2>
                Dental Schools 
-              <Button variant="primary" style={{float:"right"}}>Save Ranking</Button>{''}
+               <Button variant="primary" style={{float:"right"}}>Save Ranking</Button>{''}
             </h2>
         </Col>
       </Row>

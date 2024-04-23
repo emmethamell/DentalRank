@@ -4,7 +4,8 @@ import "./compare.css"
 const Compare = () => {
     return (
         <>
-        <div>Compare Page</div>
+        <div className="compare-page">
+            Compare Page</div>
         </>
         
     )

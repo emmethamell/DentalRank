@@ -12,12 +12,6 @@ function getSchools(stu_fac, percent, dat_overall, gpa_overall){
                    (!gpa_overall || (obj.gpa_overall && gpa_overall.min ? obj.gpa_overall >= gpa_overall.min : true) && (obj.gpa_overall && gpa_overall.max ? obj.gpa_overall <= gpa_overall.max : true)) &&
                    (!percent || (obj.percent && percent.min ? obj.percent >= percent.min : true) && (obj.percent && percent.max ? obj.percent <= percent.max : true));
         });
-
-        /*
-        return jsonData.map((obj) => {
-            return obj.school
-        });
-        */
        
         //return list of objects instead
         return jsonData

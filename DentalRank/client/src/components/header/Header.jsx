@@ -1,22 +1,43 @@
-import React from "react";
+import React, { useState, useEffect} from "react";
 import "./header.css";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import Badge from 'react-bootstrap/Badge';
+import Badge from "react-bootstrap/Badge";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import logo from "../../assets/tooth.png";
 import { Link } from "react-router-dom";
-import { Button } from 'react-bootstrap';
+import { Button } from "react-bootstrap";
 
 
 const Header = () => {
+  const [user, setUser] = useState("");
+
+  useEffect(() => {
+    const loggedInUser = localStorage.getItem("user");
+    if (loggedInUser) {
+      const foundUser = JSON.parse(loggedInUser);
+      setUser(foundUser);
+    }
+  }, []);
+
   return (
-    <Navbar expand="lg" className="bg-body-tertiary justify-content-center" bg="light" fixed="top" style={{padding:'20px 0'}}>
+    <Navbar
+      expand="lg"
+      className="bg-body-tertiary justify-content-center"
+      bg="light"
+      fixed="top"
+      style={{ padding: "20px 0" }}
+    >
       <Container>
         <Navbar.Brand
           href="/"
-          style={{ marginLeft:"50px", display: "flex", alignItems: "center", fontSize: "1.9em" }}
+          style={{
+            marginLeft: "50px",
+            display: "flex",
+            alignItems: "center",
+            fontSize: "1.9em",
+          }}
         >
           <img
             src={logo}
@@ -27,9 +48,9 @@ const Header = () => {
           />
           DentalRank
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto" style={{marginRight:"50px"}}>
+          <Nav className="ms-auto" style={{ marginRight: "50px", alignItems: "center"}}>
             <Nav.Link className="nav-link" as={Link} to="/">
               Home
             </Nav.Link>
@@ -39,10 +60,10 @@ const Header = () => {
             <Nav.Link className="nav-link" as={Link} to="/compare">
               Compare
             </Nav.Link>
-            <Nav.Link className="nav-link" as={Link} to="/signin">
-              <h4>
-              <Badge bg="primary">Sign In</Badge>
-              </h4>
+            <Nav.Link className="nav-link" as={Link} to={user ? "/account" : "/signin"} >
+                <Button variant="primary" >
+                {user ? "Account" : "Sign In"}
+                </Button>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
