@@ -7,6 +7,7 @@ import { getSchools } from "./data/models.mjs";
 import crypto from "crypto";
 import sgMail from "@sendgrid/mail";
 import session from 'express-session';
+import jwt from 'jsonwebtoken';
 
 const app = express();
 const port = 3001;
@@ -14,13 +15,6 @@ dotenv.config({ path: "../.env" });
 
 app.use(cors());
 app.use(express.json());
-
-app.use(session({
-  secret: process.env.SESSION_SECRET,
-  resave: false,
-  saveUninitialized: true,
-  cookie: { secure: true }
-}))
 
 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
@@ -132,8 +126,9 @@ app.post("/api/signin", async (req, res) => {
       return res.status(400).json({ error: "password no matchy " });
     }
 
-    req.session.userId = user._id;
-    res.status(200).json({ message: "Signed in successfully" });
+    const token = jwt.sign({ id: user._id }, process.env.JWT_SECRET, { expiresIn: '1h' });
+
+    res.status(200).json({ message: "Signed in successfully", token, name: user.name });
     
   } catch (error) {
     console.error(error);
