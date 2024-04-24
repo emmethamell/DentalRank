@@ -1,14 +1,13 @@
 import React, { useContext, useState, useEffect } from "react";
 import { School } from './School';
 import { ListGroup, Accordion } from "react-bootstrap";
-import MetricsContext from "./MetricsContext";
+import { useSelector } from "react-redux";
 import "./rank.css";
-import { Container } from 'react-bootstrap';
 
-import { NewSchool} from './NewSchool';
 
 const DentalSchools = () => {
-  const { metrics } = useContext(MetricsContext);
+  const metrics = useSelector((state) => state.metrics)
+
   const [schools, setSchools] = useState([]);
  
   useEffect(() => {
@@ -21,7 +20,6 @@ const DentalSchools = () => {
     })
       .then((response) => response.json())
       .then((data) => {
-        // update the schools
         setSchools(data);
       })
       .catch((error) => {

@@ -1,7 +1,11 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import { Accordion, Form, Row, Col } from "react-bootstrap";
-import MetricsContext from "./MetricsContext";
 import "./rank.css";
+
+import { useDispatch, useSelector } from "react-redux";
+import { updateMetrics } from "../../redux/metricsSlice"; 
+
+
 const MetricItem = ({
   eventKey,
   header,
@@ -9,16 +13,20 @@ const MetricItem = ({
   minPlaceholder,
   maxPlaceholder,
 }) => {
-  const { metrics, updateMetrics } = useContext(MetricsContext);
+
+  const metrics = useSelector((state) => state.metrics); 
+  const dispatch = useDispatch();
 
   const handleMinChange = (e) => {
     const currentMetrics = metrics[eventKey] || {};
-    updateMetrics(eventKey, e.target.value, currentMetrics.max);
+    dispatch(updateMetrics({ key: eventKey, min: Number(e.target.value), max: currentMetrics.max }));
   };
-
+  
   const handleMaxChange = (e) => {
     const currentMetrics = metrics[eventKey] || {};
-    updateMetrics(eventKey, currentMetrics.min, e.target.value);
+    dispatch(updateMetrics({ key: eventKey, min: currentMetrics.min, max: Number(e.target.value) }));
+    console.log(metrics);
+
   };
 
   return (

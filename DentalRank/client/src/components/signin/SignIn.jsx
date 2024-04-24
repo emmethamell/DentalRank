@@ -9,10 +9,15 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import  Account from "../account/Account";
 
+import { useDispatch } from 'react-redux';
+import { login } from '../../redux//userSlice'; // or wherever your authSlice is defined
+
 const SignIn = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [user, setUser] = useState();
+
+  const dispatch = useDispatch();
 
   const navigate = useNavigate();
 
@@ -41,6 +46,7 @@ const SignIn = () => {
 
       if (response.data.message === "Signed in successfully") {
         navigate("/");
+        dispatch(login()); //LOGIN
         alert("Success!");
       } else {
         alert(response.data.error);

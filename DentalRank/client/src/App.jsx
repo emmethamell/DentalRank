@@ -6,20 +6,21 @@ import Home from "./components/home/Home";
 import Rank from "./components/rank/Rank";
 import { AppRoutes } from "./AppRoutes";
 import { BrowserRouter as Router } from "react-router-dom";
-import MetricsProvider from "./components/rank/MetricsProvider";
+import { Provider } from "react-redux";
+import store from "./redux/store";
 
 function App() {
   return (
-    <div>
-      <MetricsProvider>
-        <Router>
-        <div className="header">
-          <Header />
-        </div>
-          <AppRoutes />
-        </Router>
-      </MetricsProvider>
-    </div>
+    <Provider store={store}>
+      <div>
+          <Router>
+            <div className="header">
+              <Header />
+            </div>
+            <AppRoutes />
+          </Router>
+      </div>
+    </Provider>
   );
 }
 
