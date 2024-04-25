@@ -10,17 +10,8 @@ import { useSelector } from 'react-redux';
 
 
 const Header = () => {
-  const [user, setUser] = useState("");
 
   const isAuthenticated = useSelector((state) => state.auth.isAuthenticated)
-
-  useEffect(() => {
-    const loggedInUser = localStorage.getItem("user");
-    if (loggedInUser) {
-      const foundUser = JSON.parse(loggedInUser);
-      setUser(foundUser);
-    }
-  }, [isAuthenticated]);
 
   return (
     <Navbar
@@ -53,17 +44,17 @@ const Header = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto" style={{ marginRight: "50px", alignItems: "center"}}>
             <Nav.Link className="nav-link" as={Link} to="/">
-              Home
+              HOME
             </Nav.Link>
             <Nav.Link className="nav-link" as={Link} to="/rank">
-              Rank
+              RANK
             </Nav.Link>
             <Nav.Link className="nav-link" as={Link} to="/compare">
-              Compare
+              COMPARE
             </Nav.Link>
-            <Nav.Link className="nav-link" as={Link} to={user ? "/account" : "/signin"} >
-                <Button variant="primary" >
-                {user ? "Account" : "Sign In"}
+            <Nav.Link className="nav-link" as={Link} to={isAuthenticated ? "/account" : "/signin"} >
+                <Button variant="primary" style={{padding: "5px 25px"}}>
+                {isAuthenticated ? "ACCOUNT" : "SIGN IN"}
                 </Button>
             </Nav.Link>
           </Nav>

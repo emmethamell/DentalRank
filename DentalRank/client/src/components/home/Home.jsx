@@ -1,8 +1,10 @@
-import React, { useEffect } from 'react';
-import "./home.css"
+import React from "react";
+import Footer from "../footer/Footer";
+import "./home.css";
 
 const Home = () => {
     return (
+        <>
         <div className="home">
             <div className="jumbotron">
                 <h1 className="display-4">Rank your Dental Schools</h1>
@@ -10,6 +12,10 @@ const Home = () => {
                 <a className="btn btn-primary btn-lg" href="/rank" role="button">Create your Ranking</a>
             </div>
         </div>
+        <div className="footer-home">
+            <Footer />
+        </div>
+        </>
     );
 };
 

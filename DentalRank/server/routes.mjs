@@ -68,7 +68,11 @@ router.get("/verify-email", async (req, res) => {
       .collection("users")
       .updateOne({ token }, { $set: { emailVerified: true } });
 
-    res.send("Email verified successfully");
+    res.send(`
+    <h1>Email Verified Successfully!<h1>
+    <p>Thanks for verifying your email. You can now log in <a href="http://localhost:5173/signin">here</a>.<p> 
+    
+    `);
   } catch (error) {
     console.error(error);
     res.status(500).json({ error: "Error while verifying email" });
@@ -102,7 +106,7 @@ router.post("/api/signin", async (req, res) => {
 
     res
       .status(200)
-      .json({ message: "Signed in successfully", token, name: user.name });
+      .json({ message: "Signed in successfully", token, name: user.name, email: user.email});
   } catch (error) {
     console.error(error);
     res.status(500).json({ error: "An error occurred while signing in" });

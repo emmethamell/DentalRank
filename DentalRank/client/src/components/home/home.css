@@ -1,20 +1,21 @@
 .jumbotron {
-    margin: 20px;
+  margin: 20px;
 }
 
 .home {
-    padding: 30px;
+  padding: 8%;
+  height: 100%;
 }
 
-
 .jumbotron {
-    background-color: #f8f9fa;
-    color: #333;
-    padding: 2rem 1rem;
-    border-radius: 0.3rem;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-  }
-  
-  .display-4 {
-    color: #6c757d;
-  }
+  background-color: #f8f9fa;
+  color: #333;
+  padding: 2rem 1rem;
+  border-radius: 0.3rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.display-4 {
+  color: #6c757d;
+}
+

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./signin.css";
+import styles from "./signin.module.css";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import { Link } from "react-router-dom";
@@ -7,10 +7,8 @@ import Nav from "react-bootstrap/Nav";
 import Badge from "react-bootstrap/Badge";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import  Account from "../account/Account";
-
-import { useDispatch } from 'react-redux';
-import { login } from '../../redux//userSlice'; // or wherever your authSlice is defined
+import { useDispatch } from "react-redux";
+import { login } from "../../redux/authSlice";
 
 const SignIn = () => {
   const [email, setEmail] = useState("");
@@ -46,7 +44,7 @@ const SignIn = () => {
 
       if (response.data.message === "Signed in successfully") {
         navigate("/");
-        dispatch(login()); //LOGIN
+        dispatch(login());
         alert("Success!");
       } else {
         alert(response.data.error);
@@ -60,36 +58,39 @@ const SignIn = () => {
   };
 
   return (
-    <div className="sign-in-page">
-      <Form onSubmit={handleSubmit}>
-        <Form.Group className="mb-3" controlId="formBasicEmail">
-          <Form.Label>Email address</Form.Label>
-          <Form.Control
-            type="email"
-            placeholder="Enter email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-          />
-        </Form.Group>
-        <Form.Group className="mb-3" controlId="formBasicPassword">
-          <Form.Label>Password</Form.Label>
-          <Form.Control
-            type="password"
-            placeholder="Password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-          />
-        </Form.Group>
-        <Button variant="primary" type="submit">
-          Submit
-        </Button>
-      </Form>
-      <div>
-        <Nav.Link className="nav-link" as={Link} to="/signup">
-          <h4>
-            <Badge bg="primary">Create Account</Badge>
-          </h4>
-        </Nav.Link>
+    <div className={styles["sign-in-page"]}>
+      <h2>Login</h2>
+      <h6>Please enter your email and password!</h6>
+      <div style={{ padding: "30px" }}>
+        <Form onSubmit={handleSubmit}>
+          <Form.Group className="mb-3" controlId="formBasicEmail">
+            <Form.Control
+              type="email"
+              placeholder="Enter email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+            />
+          </Form.Group>
+          <Form.Group className="mb-3" controlId="formBasicPassword">
+            <Form.Control
+              type="password"
+              placeholder="Password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+            />
+          </Form.Group>
+          <Button className={styles["signin-button"]} variant="primary" type="submit">
+            Submit
+          </Button>
+        </Form>
+      </div>
+      <div style={{ paddingTop: "30px", borderTop: "1px solid #808080" }}>
+        <h6>
+          Don't have an account?{" "}
+          <Nav.Link className={`${styles['nav-link']} ${styles['signin-link']}`} as={Link} to="/signup">
+            Sign Up
+          </Nav.Link>
+        </h6>
       </div>
     </div>
   );
