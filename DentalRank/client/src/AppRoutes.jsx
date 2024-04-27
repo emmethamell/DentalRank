@@ -8,16 +8,6 @@ import Account from "./components/account/Account";
 import React, { useEffect, useState } from "react"
 
 export const AppRoutes = () => {
-  const [user, setUser] = useState("");
-
-  useEffect(() => {
-    const loggedInUser = localStorage.getItem("user");
-    if (loggedInUser) {
-      const foundUser = JSON.parse(loggedInUser);
-      setUser(foundUser);
-    }
-  }, []);
-
   return (
     <Routes>
       <Route path="/" element={<Home />} />

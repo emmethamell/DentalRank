@@ -6,7 +6,7 @@ import { logout } from "../../redux/authSlice";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import SidebarMenu from "./SidebarMenu";
 import AccountDetails from "./AccountDetails";
-import SavedRankings from "./SaveRankings";
+import SavedRankings from "./SavedRankings";
 import axios from "axios";
 
 const Account = () => {
@@ -14,6 +14,18 @@ const Account = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const [selectedMenu, setSelectedMenu] = useState('details');
+
+  useEffect(() => {
+    const fetchUserData = async () => {
+      const res = await axios.get(
+        "http://localhost:3001/api/get-user-info", 
+        { withCredentials: true }
+      );
+      setUser(res.data);
+    };
+
+    fetchUserData();
+  }, []);
 
   const handleLogout = async () => {
     try {
@@ -54,7 +66,7 @@ const Account = () => {
           </Col>
           <Col sm={8} className="dentalschools">
             {selectedMenu === "details" && <AccountDetails user={user}/>}
-            {selectedMenu === "rankings" && <SavedRankings />}
+            {selectedMenu === "rankings" && <SavedRankings user={user}/>}
           </Col>
         </Row>
       </Container>

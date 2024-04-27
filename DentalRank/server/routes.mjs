@@ -119,6 +119,7 @@ router.post("/logout", (req, res) => {
   res.end();
 });
 
+//get user account info
 router.get("/api/get-user-info", authenticateToken, async (req, res) => {
   const userId = req.user.id;
 
@@ -132,6 +133,7 @@ router.get("/api/get-user-info", authenticateToken, async (req, res) => {
 
 });
 
+//return true if token is valid
 router.get("/set-authentication", async (req, res) => {
   const token = req.cookies.token;
   console.log("MY TOKEN: ", token);
@@ -142,9 +144,30 @@ router.get("/set-authentication", async (req, res) => {
   }
 });
 
+//save ranking in database
+router.put("/api/save-ranking", authenticateToken, async (req, res) => {
+  const ranking = req.body;
+  const userId = req.user.id;
+
+  try {
+    const db = getDB();
+    const user = await db.collection("users").findOneAndUpdate(
+      { _id: new mongodb.ObjectId(userId) },
+      { $push: { rankings: ranking } },
+      { returnOriginal: false }
+    );
+    if (!user) {
+      res.status(404).json({ message: "User not found" });
+      return;
+    }
+  } catch (err) {
+    res.status(500).json({ message: "Server error"})
+  }
+  res.status(200).json({ message: "EVERYTHING OK" });
+});
 
 
-
+//authenticated the token: set req.user to obj with token attribute
 function authenticateToken(req, res, next) {
   const token = req.cookies.token;
   if (!token) {

@@ -1,11 +1,16 @@
 import React from "react";
+import { FaEnvelope, FaUserCircle } from "react-icons/fa";
+import { Stack } from "react-bootstrap";
 
-
-const AccountDetails = ({user}) => (
-    <div>
-      <h4>MAIL: {user.email}</h4>
-      <h4>Name: {user.name}</h4>
+const AccountDetails = ({ user }) => (
+  <Stack gap={3}>
+    <div className="p-2">
+      <FaEnvelope /> {user.email}
     </div>
-  );
+    <div className="p-2">
+      <FaUserCircle /> {user.name}
+    </div>
+  </Stack>
+);
 
-export default AccountDetails
+export default AccountDetails;
