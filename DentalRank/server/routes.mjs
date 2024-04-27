@@ -5,10 +5,11 @@ import { sendVerificationEmail } from "./email.mjs";
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 import crypto from "crypto";
+import mongodb from "mongodb";
 
 const router = express.Router();
 
-// TODO: update the req body so that the variable names match with data_json
+
 router.post("/schools", async (req, res) => {
   const { stu_fac, app_admit, dat, gpa } = req.body;
 
@@ -79,7 +80,7 @@ router.get("/verify-email", async (req, res) => {
   }
 });
 
-
+//sign In
 router.post("/api/signin", async (req, res) => {
   const { email, password } = req.body;
 
@@ -88,29 +89,74 @@ router.post("/api/signin", async (req, res) => {
     const user = await db.collection("users").findOne({ email });
 
     if (!user) {
-      //handle if user doesnt match
-      return res.status(400).json({ error: "user no matchy" });
+      return res.status(400).json({ error: "NO USER FOUND" });
     }
-
 
     const passwordMatches = await bcrypt.compare(password, user.password);
 
     if (!passwordMatches) {
-      //handle if password doesnt match
-      return res.status(400).json({ error: "password no matchy " });
+      return res.status(400).json({ error: "WRONG PASSWORD" });
     }
 
-    const token = jwt.sign({ id: user._id }, process.env.JWT_SECRET, {
-      expiresIn: "1h",
+    //if the password and user (email) match, create a token and set a cookie. Both expire in 10 days
+    const token = jwt.sign({ id: user._id }, process.env.JWT_ACCESS_SECRET, {
+      expiresIn: "10d",
     });
 
-    res
-      .status(200)
-      .json({ message: "Signed in successfully", token, name: user.name, email: user.email});
+    res.cookie("token", token, { httpOnly: false, secure: false, sameSite: 'lax', maxAge: 10 * 24 * 60 * 60 * 1000 });
+    res.status(200).json({ message: "Signed in successfully" });
+
   } catch (error) {
     console.error(error);
     res.status(500).json({ error: "An error occurred while signing in" });
   }
 });
+
+//logout
+router.post("/logout", (req, res) => {
+  res.clearCookie("token", { httpOnly: false, secure: false, sameSite: 'lax',  maxAge: 10 * 24 * 60 * 60 * 1000 });
+  res.status(200).json({ message: "Cookie Deleted"});
+  res.end();
+});
+
+router.get("/api/get-user-info", authenticateToken, async (req, res) => {
+  const userId = req.user.id;
+
+  try {
+    const db = getDB();
+    const user = await db.collection("users").findOne({ _id: new mongodb.ObjectId(userId)});
+    res.status(200).json(user)
+  } catch (err) {
+    res.status(400).json({ error: "Cannot find user: " + err});
+  }
+
+});
+
+router.get("/set-authentication", async (req, res) => {
+  const token = req.cookies.token;
+  console.log("MY TOKEN: ", token);
+  if (!token) {
+    res.status(200).json(false);
+  } else {
+    res.status(200).json(true);
+  }
+});
+
+
+
+
+function authenticateToken(req, res, next) {
+  const token = req.cookies.token;
+  if (!token) {
+    return res.sendStatus(401);
+  }
+
+  jwt.verify(token, process.env.JWT_ACCESS_SECRET, (err, user) => {
+    if (err) return res.sendStatus(403);
+    req.user = user;
+    next();
+  });
+
+}
 
 export default router;

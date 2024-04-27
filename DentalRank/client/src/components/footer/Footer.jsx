@@ -5,7 +5,7 @@ import "./footer.css";
 const Footer = () => {
   return (
     <footer className="footer">
-      <p>&copy; Emmet Hamell{" " + new Date().getFullYear()}</p>
+      <p>&copy; DentalRank{" " + new Date().getFullYear()}</p>
     </footer>
   );
 };

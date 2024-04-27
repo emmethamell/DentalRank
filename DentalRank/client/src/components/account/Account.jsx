@@ -7,6 +7,7 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 import SidebarMenu from "./SidebarMenu";
 import AccountDetails from "./AccountDetails";
 import SavedRankings from "./SaveRankings";
+import axios from "axios";
 
 const Account = () => {
   const [user, setUser] = useState("");
@@ -14,20 +15,26 @@ const Account = () => {
   const dispatch = useDispatch();
   const [selectedMenu, setSelectedMenu] = useState('details');
 
-  const handleLogout = () => {
-    localStorage.clear();
-    dispatch(logout());
-    navigate("/");
-    alert("Succesfully logged out!");
-  };
+  const handleLogout = async () => {
+    try {
+      const response = await axios.post(
+        "http://localhost:3001/logout",
+        {},
+        { withCredentials: true }
+      );
 
-  useEffect(() => {
-    const loggedInUser = localStorage.getItem("user");
-    if (loggedInUser) {
-      const foundUser = JSON.parse(loggedInUser);
-      setUser(foundUser);
+      if (response.status === 200) {
+        dispatch(logout());
+        alert("Logged out!");
+        navigate("/")
+      } else {
+        alert("Failed to logout");
+      }
+    }catch (err) {
+      console.error(err);
+      alert("Failed to logout");
     }
-  }, []);
+  };
 
   return (
     <Container>

@@ -19,14 +19,6 @@ const SignIn = () => {
 
   const navigate = useNavigate();
 
-  useEffect(() => {
-    const loggedInUser = localStorage.getItem("user");
-    if (loggedInUser) {
-      const foundUser = JSON.parse(loggedInUser);
-      setUser(foundUser);
-    }
-  }, []);
-
   const handleSubmit = async (event) => {
     event.preventDefault();
     const user = { email, password };
@@ -34,12 +26,11 @@ const SignIn = () => {
     try {
       const response = await axios.post(
         "http://localhost:3001/api/signin",
-        user
+        user,
+        { withCredentials: true }
       );
 
       setUser(response.data);
-      // store the user in localStorage
-      localStorage.setItem("user", JSON.stringify(response.data));
       console.log(response.data);
 
       if (response.data.message === "Signed in successfully") {

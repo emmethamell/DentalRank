@@ -4,7 +4,6 @@ import DentalSchools from "./DentalSchools";
 import "./rank.css";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-import Footer from "../footer/Footer";
 
 const Rank = () => {
   const isAuthenticated = useSelector((state) => state.auth.isAuthenticated);

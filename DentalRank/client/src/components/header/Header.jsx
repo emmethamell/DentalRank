@@ -7,11 +7,20 @@ import logo from "../../assets/tooth.png";
 import { Link } from "react-router-dom";
 import { Button } from "react-bootstrap";
 import { useSelector } from 'react-redux';
-
+import { useDispatch } from "react-redux";
+import { checkAuthStatus } from "../../redux/authSlice";
 
 const Header = () => {
 
-  const isAuthenticated = useSelector((state) => state.auth.isAuthenticated)
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(checkAuthStatus())
+  },[dispatch]);
+
+  const isAuthenticated = useSelector((state) => state.auth.isAuthenticated);
+  const isLoading = useSelector((state) => state.auth.isLoading)
+  const error = useSelector((state) => state.auth.error)
 
   return (
     <Navbar
