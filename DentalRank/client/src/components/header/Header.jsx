@@ -58,9 +58,6 @@ const Header = () => {
             <Nav.Link className="nav-link" as={Link} to="/rank">
               RANK
             </Nav.Link>
-            <Nav.Link className="nav-link" as={Link} to="/compare">
-              COMPARE
-            </Nav.Link>
             <Nav.Link className="nav-link" as={Link} to={isAuthenticated ? "/account" : "/signin"} >
                 <Button variant="primary" style={{padding: "5px 25px"}}>
                 {isAuthenticated ? "ACCOUNT" : "SIGN IN"}

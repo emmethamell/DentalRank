@@ -28,13 +28,6 @@ const Metrics = () => {
           minPlaceHolder="0"
           maxPlaceHolder="100"
         />
-        <MetricItem
-          eventKey="stu_fac"
-          header="Student to Faculty ratio"
-          body="The number of dental students per one full time faculty member"
-          minPlaceHolder="1"
-          maxPlaceHolder="30"
-        />
       </Accordion>
     </ListGroup>
   );

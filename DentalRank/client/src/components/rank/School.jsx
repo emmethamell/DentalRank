@@ -79,6 +79,15 @@ export const School = ({ school, eventKey }) => {
                     {school.percent + "%"}
                   </Col>
                 </Row>
+                <Row
+                  className="custom-border-bottom"
+                  style={{ margin: "0 -20px" }}
+                >
+                  <Col style={{ padding: "10px 15px" }}>Type:</Col>
+                  <Col style={{ padding: "10px 15px" }}>
+                    {school.type}
+                  </Col>
+                </Row>
                 <Row 
                   style={{ margin: "0 -20px" }}
                 >

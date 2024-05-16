@@ -15,9 +15,13 @@ const Rank = () => {
   const handleSaveRanking = async () => {
     if (isAuthenticated) {
       try {
-        let response = await axios.put("http://localhost:3001/api/save-ranking", schools, {
-          withCredentials: true,
-        });
+        let response = await axios.put(
+          "http://localhost:3001/api/save-ranking",
+          schools,
+          {
+            withCredentials: true,
+          }
+        );
         if (response.data.message === "EVERYTHING OK") {
           alert("Saved Ranking!");
         }
@@ -59,6 +63,11 @@ const Rank = () => {
         </Row>
         <Row>
           <Col sm={4} className="metrics">
+            <div className="metrics-info">
+              <p>
+              Select minimum and/or maximum values for any of the provided metrics to discover which dental schools match your criteria. For instance, if you seek a dental school with a mean GPA below 3.7, enter 3.7 where indicated under "Max".
+              </p>
+            </div>
             <Metrics />
           </Col>
           <Col sm={8} className="dentalschools">
