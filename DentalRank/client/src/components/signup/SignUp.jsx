@@ -23,7 +23,7 @@ const SignUp = () => {
     }
 
     try {
-      const response = await axios.post("http://localhost:3001/api/signup", {
+      const response = await axios.post("https://dentalrank.onrender.com/api/signup", {
         name,
         email,
         password,

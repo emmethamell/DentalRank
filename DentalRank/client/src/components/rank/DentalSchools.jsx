@@ -10,7 +10,7 @@ const DentalSchools = ({ schools, setSchools }) => {
 
   useEffect(() => {
     axios
-      .post("http://localhost:3001/schools", metrics, { withCredentials: true })
+      .post("https://dentalrank.onrender.com/schools", metrics, { withCredentials: true })
       .then((response) => {
         setSchools(response.data);
       })

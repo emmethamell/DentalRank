@@ -11,7 +11,7 @@ const app = express();
 const port = process.env.PORT || 3001;
 
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: true, //TODO: Change before production to only allow requests where front end is hosted
   credentials: true
 }));
 

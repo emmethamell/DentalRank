@@ -13,7 +13,7 @@ export const checkAuthStatus = createAsyncThunk(
   "auth/checkAuthStatus",
   async () => {
     const res = await axios.get(
-      "http://localhost:3001/set-authentication", 
+      "https://dentalrank.onrender.com/set-authentication", 
       { withCredentials: true }
     );
     const data = await res.data;

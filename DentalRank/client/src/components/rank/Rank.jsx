@@ -16,7 +16,7 @@ const Rank = () => {
     if (isAuthenticated) {
       try {
         let response = await axios.put(
-          "http://localhost:3001/api/save-ranking",
+          "https://dentalrank.onrender.com/api/save-ranking",
           schools,
           {
             withCredentials: true,
