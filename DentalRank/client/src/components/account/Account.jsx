@@ -18,7 +18,7 @@ const Account = () => {
   useEffect(() => {
     const fetchUserData = async () => {
       const res = await axios.get(
-        "http://localhost:3001/api/get-user-info", 
+        "https://dentalrank.onrender.com/api/get-user-info", 
         { withCredentials: true }
       );
       setUser(res.data);
@@ -30,7 +30,7 @@ const Account = () => {
   const handleLogout = async () => {
     try {
       const response = await axios.post(
-        "http://localhost:3001/logout",
+        "https://dentalrank.onrender.com/logout",
         {},
         { withCredentials: true }
       );
