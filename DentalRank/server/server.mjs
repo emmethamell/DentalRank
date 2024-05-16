@@ -5,7 +5,7 @@ import router from "./routes.mjs";
 import { connectDB } from "./db_models.mjs";
 import cookieParser from "cookie-parser";
 
-dotenv.config({ path: "../.env" });
+dotenv.config({ path: ".env" });
 
 const app = express();
 const port = process.env.PORT || 3001;
