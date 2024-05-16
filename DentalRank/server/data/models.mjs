@@ -2,7 +2,7 @@ import fs from 'fs';
 
 function getSchools(stu_fac, percent, dat_overall, gpa_overall){
     try {
-        const data = fs.readFileSync('data.json', 'utf8');
+        const data = fs.readFileSync('./data.json', 'utf8');
         let jsonData = JSON.parse(data);
 
         // We want the filters to return true in the case the data is undefined or the object has undefined data. In the end every school should have complete data
