@@ -13,6 +13,7 @@ import { checkAuthStatus } from "../../redux/authSlice";
 const Header = () => {
 
   const dispatch = useDispatch();
+  const [expanded, setExpanded] = useState(false);
 
   useEffect(() => {
     dispatch(checkAuthStatus())
@@ -24,7 +25,9 @@ const Header = () => {
 
   return (
     <Navbar
+      expanded={expanded}
       expand="lg"
+      collapseOnSelect={true}
       className="bg-body-tertiary justify-content-center"
       bg="light"
       fixed="top"
@@ -33,8 +36,8 @@ const Header = () => {
       <Container>
         <Navbar.Brand
           href="/"
+          className="nav-brand"
           style={{
-            marginLeft: "50px",
             display: "flex",
             alignItems: "center",
             fontSize: "1.9em",
@@ -49,16 +52,16 @@ const Header = () => {
           />
           DentalRank
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle onClick={() => setExpanded(!expanded)} aria-controls="basic-navbar-nav" style={{ marginRight: '20px' }}/>
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto" style={{ marginRight: "50px", alignItems: "center"}}>
-            <Nav.Link className="nav-link" as={Link} to="/">
+          <Nav className="ms-auto" style={{alignItems: "center"}}>
+            <Nav.Link onClick={() => setExpanded(false)} className="nav-link" as={Link} to="/">
               HOME
             </Nav.Link>
-            <Nav.Link className="nav-link" as={Link} to="/rank">
+            <Nav.Link onClick={() => setExpanded(false)} className="nav-link" as={Link} to="/rank">
               RANK
             </Nav.Link>
-            <Nav.Link className="nav-link" as={Link} to={isAuthenticated ? "/account" : "/signin"} >
+            <Nav.Link onClick={() => setExpanded(false)} className="nav-link" as={Link} to={isAuthenticated ? "/account" : "/signin"} >
                 <Button variant="primary" style={{padding: "5px 25px"}}>
                 {isAuthenticated ? "ACCOUNT" : "SIGN IN"}
                 </Button>

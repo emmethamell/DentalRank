@@ -42,10 +42,10 @@ const Rank = () => {
       <Container className="container-rank">
         <Row className="titlerow">
           <Col sm={4}>
-            <h2>Metrics</h2>
+            <h2 className="d-none d-sm-block">Metrics</h2>
           </Col>
           <Col sm={8} className="dental-title">
-            <h2>
+            <h2 className="d-none d-sm-block">
               Dental Schools
               <Button
                 variant="primary"
@@ -59,6 +59,20 @@ const Rank = () => {
                 SAVE RANKING
               </Button>
             </h2>
+
+            <Button
+            className="d-block d-sm-none"
+                variant="primary"
+                style={{
+                  fontSize: "20px",
+                  padding: "5px 20px",
+                  margin: "0 auto",
+                }}
+                onClick={handleSaveRanking}
+              >
+                SAVE RANKING
+              </Button>
+
           </Col>
         </Row>
         <Row>

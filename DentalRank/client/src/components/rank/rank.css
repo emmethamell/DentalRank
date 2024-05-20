@@ -52,13 +52,28 @@
   padding: 20px;
 }
 
+.header-text {
+  background: none;
+  border: none;
+  padding:0;
+}
+
+.custom-border-bottom {
+  border-bottom: 1px solid #000;
+}
+
+
 /* MEDIA */
 
 /* SMALL SCREEN */
 @media (max-width: 576px) {
 
-  .header-text {
+  .header-text, .card-padding {
     font-size: 12px;
+  }
+
+  .title {
+    padding: 50px;
   }
 
 }
@@ -75,15 +90,5 @@
     font-size: 15px;
   }
 
-}
-
-.header-text {
-    background: none;
-    border: none;
-    padding:0;
-}
-
-.custom-border-bottom {
-    border-bottom: 1px solid #000;
 }
 
