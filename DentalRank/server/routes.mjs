@@ -71,7 +71,7 @@ router.get("/verify-email", async (req, res) => {
 
     res.send(`
     <h1>Email Verified Successfully!<h1>
-    <p>Thanks for verifying your email. You can now log in <a href="http://localhost:5173/signin">here</a>.<p> 
+    <p>Thanks for verifying your email. You can now log in <a href="http://www.dentalrank.us/signin">here</a>.<p> 
     
     `);
   } catch (error) {
