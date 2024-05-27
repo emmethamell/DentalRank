@@ -49,6 +49,13 @@ router.post("/api/signup", async (req, res) => {
   }
 });
 
+router.get("/email-verified", (req, res) => {
+  res.send(`
+    <h1>Email Verified Successfully!<h1>
+    <p>Thanks for verifying your email. You can now log in <a href="http://www.dentalrank.us/signin">here</a>.<p> 
+  `);
+});
+
 //verify email
 router.get("/verify-email", async (req, res) => {
   const { token } = req.query;
@@ -69,11 +76,8 @@ router.get("/verify-email", async (req, res) => {
       .collection("users")
       .updateOne({ token }, { $set: { emailVerified: true } });
 
-    res.send(`
-    <h1>Email Verified Successfully!<h1>
-    <p>Thanks for verifying your email. You can now log in <a href="http://www.dentalrank.us/signin">here</a>.<p> 
+    res.redirect("/email-verified");
     
-    `);
   } catch (error) {
     console.error(error);
     res.status(500).json({ error: "Error while verifying email" });
